@@ -100,7 +100,7 @@ namespace Application.Services.InternalServices.CryptoHttpRequestService
         /// <summary>
         /// Yatırım getirisi bilgileri (ROI - Return on Investment).
         /// </summary>
-        public Roi roi { get; set; }
+        public Roi? roi { get; set; }
 
         /// <summary>
         /// Kripto para birimine ait verilerin en son güncellendiği tarih ve saat.

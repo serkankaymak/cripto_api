@@ -16,6 +16,7 @@ public class GetCryptosQuery : ARequest<List<CryptoDto>>
 
     public override ValidationResult Validate()
     {
+        if (_dateTime != null && _dateTime < DateTime.UtcNow.AddYears(-10)) return ValidationResult.Fail("en fazla 10 sene önceki veriler sorgulanabilir");
         return ValidationResult.Success();
     }
 }

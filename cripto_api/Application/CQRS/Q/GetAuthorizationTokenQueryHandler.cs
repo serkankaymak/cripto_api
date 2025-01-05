@@ -1,4 +1,5 @@
 ﻿using Application.Dtos;
+using Application.Services.ExternalServices;
 using Application.Services.InternalServices.JwtService;
 using AutoMapper;
 using Domain.Domains.IdentityDomain.Entities;
@@ -15,28 +16,16 @@ namespace Application.CQRS.Q;
 
 public sealed class GetAuthorizationTokenQueryHandler : ARequestHandler<GetAuthorizationTokenQuery, TokenDto>
 {
-    readonly UserManager<UserIdentity> _userManager;
-    readonly IJwtTokenService _jwtTokenService;
+    readonly IIdentityService identityService;
 
-    public GetAuthorizationTokenQueryHandler(IJwtTokenService jwtTokenService, UserManager<UserIdentity> userManager)
+    public GetAuthorizationTokenQueryHandler(IIdentityService identityService)
     {
-        this._jwtTokenService = jwtTokenService;
-        _userManager = userManager;
+        this.identityService = identityService;
     }
 
-
-    protected override async Task<TokenDto> HandleRequestAsync(GetAuthorizationTokenQuery request, CancellationToken cancellationToken)
+    protected override async Task<TokenDto> HandleRequestAsync(GetAuthorizationTokenQuery request)
     {
-        string token;
-        if (request.Email == "string" && request.Password == "string")
-        {
-            token = _jwtTokenService.GenerateToken(new UserIdentity { Email = request.Email, PasswordHash = request.Password });
-            return new TokenDto { Token = token };
-        }
-
-        var user = await _userManager.FindByEmailAsync(request.Email);
-        if (user == null) throw new Exception("kullanıcı bulunamadı");
-        token = _jwtTokenService.GenerateToken(user);
-        return new TokenDto { Token = token };
+        var result = await identityService.AuthenticateAsync(request.Email, request.Password);
+        return new TokenDto { Token = result };
     }
 }

@@ -11,7 +11,7 @@ namespace Application.CQRS.C;
 
 public class UpdateMobileClientNotificationToken : ARequest<Unit>
 {
-    public string? Email { get; set; }
+    public required string Email { get; set; }
     public required string MobileClientToken { get; set; }
 
     public override ValidationResult Validate()

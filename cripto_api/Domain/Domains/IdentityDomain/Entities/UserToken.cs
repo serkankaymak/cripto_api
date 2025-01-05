@@ -19,7 +19,7 @@ namespace Domain.Domains.IdentityDomain.Entities
 
 
 
-        public void UpdateToken(string? jwt, string? refreshToken)
+        public void UpdateToken(string jwt, string? refreshToken = null)
         {
             this.jwt = jwt;
             this.refreshToken = refreshToken;

@@ -1,4 +1,5 @@
 ﻿using Application.Dtos;
+using Application.Services.ExternalServices;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,16 @@ namespace Application.CQRS.C;
 
 public class UpdateMobileClientNotificationTokenHandler : ARequestHandler<UpdateMobileClientNotificationToken, Unit>
 {
-    protected override Task<Unit> HandleRequestAsync(UpdateMobileClientNotificationToken request, CancellationToken cancellationToken)
+    IIdentityService identityService;
+
+    public UpdateMobileClientNotificationTokenHandler(IIdentityService identityService)
     {
-        throw new NotImplementedException();
+        this.identityService = identityService;
+    }
+
+    protected override async Task<Unit> HandleRequestAsync(UpdateMobileClientNotificationToken request)
+    {
+        await identityService.UpdateMobilePushNotificationTokenOfUser(request.Email, request.MobileClientToken);
+        return Unit.Value;
     }
 }

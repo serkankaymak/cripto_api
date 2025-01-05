@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\useridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\useridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 160,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:11:04.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserPreferences.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:58:49.656Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@ namespace Application.Repositories;
 
 public interface IUnitOfWork : IDisposable
 {
-    IRepository repository { get; }
+    ICriptoRepository criptos { get; }
     Task<int> CommitAsync();
     new void Dispose();
 }

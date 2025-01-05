@@ -15,7 +15,7 @@ public class Crypto : IEntity
 
     [Required]
     [MaxLength(10)]
-    public string Symbol { get; set; } // Örneğin, "BTC", "ETH"
+    public required string Symbol { get; set; } // Örneğin, "BTC", "ETH"
 
     [MaxLength(100)]
     public string Name { get; set; } // Örneğin, "Bitcoin", "Ethereum"
@@ -85,7 +85,6 @@ public class Crypto : IEntity
     /// Maksimum arz: Kripto para biriminin üretilebilecek maksimum coin sayısı (nullable).
     /// </summary>
     public decimal? max_supply { get; set; }
-
 
     #endregion
 

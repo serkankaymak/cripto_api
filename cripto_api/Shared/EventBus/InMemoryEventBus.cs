@@ -44,7 +44,7 @@ public class InMemoryEventBus : IEventDispatcher
             foreach (var handlerType in handlerTypes)
             {
                 // Servis sağlayıcıdan handler örneğini alın
-                var handler = (IEventHandler<TEvent>)_serviceProvider.GetService(handlerType);
+                IEventHandler<TEvent> handler = (IEventHandler<TEvent>)_serviceProvider.GetService(handlerType)!;
                 if (handler != null)
                 {
                     // Handle metodunu çağırın ve await edin

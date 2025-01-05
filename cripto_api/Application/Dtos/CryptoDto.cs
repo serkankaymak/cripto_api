@@ -11,9 +11,9 @@ public class CryptoDto : IDto
 {
     public List<TickerDto> tickers { get; set; } = new List<TickerDto>();
 
-    public string Symbol { get; set; } // Örneğin, "BTC", "ETH"
-    public string Name { get; set; } // Örneğin, "Bitcoin", "Ethereum"
-    public string Image { get; set; }
+    public required string Symbol { get; set; } // Örneğin, "BTC", "ETH"
+    public required string Name { get; set; } // Örneğin, "Bitcoin", "Ethereum"
+    public required string Image { get; set; }
     public string TargetCurrency { get; set; } = "USD";
     public decimal Price { get; set; }
     #region ath

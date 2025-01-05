@@ -34,6 +34,7 @@ using Domain.Domains.IdentityDomain.Entities;
 using Domain.Domains.ChyriptoDomain.CryptoTechnicalAnalyses;
 using Shared.LogCat;
 using api.Middlewares;
+using Application.Services.MobilePushNotificationService;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -98,8 +99,9 @@ builder.Services.AddAuthorization(options =>
 // CORS Configuration
 builder.configureCorsSettings();
 builder.Services.AddScoped<ICryptoTechnicalAnalyses, CryptoTechnicalAnalyses>();
-builder.Services.AddScoped<IRepository, Repository>();
-builder.Services.AddScoped<IDataService, DataService>();
+builder.Services.AddScoped<ICriptoRepository, CriptoRepository>();
+builder.Services.AddScoped<IIdentityService, IdentityService>();
+builder.Services.AddScoped<ICriptoService, CriptoService>();
 
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(CriptoMappingProfile));
@@ -171,7 +173,7 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
 // Auth Services
-builder.Services.AddScoped<IAuthendicationService, AuthendicationService>();
+builder.Services.AddScoped<IIdentityService, IdentityService>();
 
 // Identity
 builder.Services.AddIdentity<UserIdentity, RoleIdentity>()
@@ -181,7 +183,7 @@ builder.Services.AddIdentity<UserIdentity, RoleIdentity>()
 builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 builder.Services.AddSignalR();
 
-builder.Services.AddScoped<IMobilePushNotificationService, MobilePushNotificationService>();
+builder.Services.AddScoped<IMobilePushNotificationService, AndroidPushNotificationService>();
 builder.Logging.AddFilter("Microsoft.EntityFrameworkCore.Database.Command", LogLevel.Warning);
 
 var app = builder.Build();

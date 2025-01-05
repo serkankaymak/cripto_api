@@ -11,17 +11,17 @@ namespace Infastructure.Persistance.Repositories;
 public class UnitOfWork : IUnitOfWork
 {
 
-    IRepository _repository;
+    ICriptoRepository _criptos;
     ApplicationDbContext _context;
 
-    public UnitOfWork(ApplicationDbContext context, IRepository repository)
+    public UnitOfWork(ApplicationDbContext context, ICriptoRepository criptos)
     {
         _context = context;
-        _repository = repository;
+        _criptos = criptos;
     }
 
     public async Task<int> CommitAsync() => await _context.SaveChangesAsync();
     public void Dispose() => _context.Dispose();
-    public IRepository repository => _repository;
+    public ICriptoRepository criptos => _criptos;
 
 }

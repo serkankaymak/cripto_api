@@ -10,14 +10,14 @@ using System.Threading.Tasks;
 
 namespace Domain.Domains.IdentityDomain.Entities
 {
-    public abstract class AUserIdentity : IdentityUser<int>, IEntity
+    public abstract class AUserIdentity : IdentityUser<int>
     {
 
         public AUserIdentity() { Roles = new HashSet<RoleIdentity>(); }
 
         [Required]
         [StringLength(50)]
-        public override string Email { get => base.Email; set => base.Email = value; }
+        public required override string Email { get => base.Email!; set => base.Email = value; }
         public override bool EmailConfirmed { get => base.EmailConfirmed; set => base.EmailConfirmed = value; }
 
         public virtual string? EmailOptional { get; set; }
@@ -25,7 +25,7 @@ namespace Domain.Domains.IdentityDomain.Entities
         public override bool PhoneNumberConfirmed { get => base.PhoneNumberConfirmed; set => base.PhoneNumberConfirmed = value; }
 
         public string Name { get; set; }
-        public string SurName { get; set; }
+        public string? SurName { get; set; }
 
         public override string? UserName { get => base.Email; set => base.UserName = base.Email; }
 

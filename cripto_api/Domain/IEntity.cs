@@ -8,3 +8,8 @@ namespace Domain;
 public interface IEntity
 {
 }
+
+public interface ISoftDeleteable
+{
+    bool IsDeleted { get; set; }
+}
