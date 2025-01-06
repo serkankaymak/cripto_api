@@ -6,10 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Application.Events;
-public class TickersFetchedEvent : IApplicationEvent
+public class TickersFetchedEvent : AApplicationEvent
 {
-    public DateTime DateOccurred { get; set; } = DateTime.UtcNow;
-
 
 }
 

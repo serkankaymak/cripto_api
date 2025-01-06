@@ -6,13 +6,14 @@ using Infastructure;
 using Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Shared.EventBus;
 using Shared.Events;
 using System;
 using System.Threading.Tasks;
 
 namespace api.Jobs;
 
-public class CryptoDataJob
+public class CryptoDataJob : IEventPublisher
 {
     static int runCount = 0;
     private readonly IEventDispatcher _eventDispatcher;
@@ -33,12 +34,12 @@ public class CryptoDataJob
         {
             _logger.LogInformation("CryptoDataJob başladı.");
             await _cryptoDataService.FetchAndStoreCryptoDataAsync();
-            await _eventDispatcher.Publish(new TickersFetchedEvent());
+            await _eventDispatcher.Publish(this, new TickersFetchedEvent());
             _logger.LogInformation("CryptoDataJob başarıyla tamamlandı.");
         }
         catch (Exception ex)
         {
-            await _eventDispatcher.Publish(new TickerFetchFailedEvent(ex.Message));
+            await _eventDispatcher.Publish(this, new TickerFetchFailedEvent(ex.Message));
         }
     }
 }

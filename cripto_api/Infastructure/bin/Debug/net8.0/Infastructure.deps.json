@@ -1727,10 +1727,8 @@
           "Hangfire.MemoryStorage": "1.8.1.1",
           "Hangfire.SQLite": "1.4.2",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
-          "Microsoft.IdentityModel.Tokens": "8.2.0",
           "Newtonsoft.Json": "13.0.3",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
           "Shared": "1.0.0",
@@ -1742,8 +1740,10 @@
       },
       "Domain/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0",
           "Microsoft.Extensions.Identity.Core": "7.0.0",
+          "Microsoft.IdentityModel.Tokens": "8.2.0",
           "Shared": "1.0.0",
           "TA-Lib": "0.5.0.3"
         },

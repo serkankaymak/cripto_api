@@ -30,6 +30,21 @@ public class AuthendicationController : AController
 
 
     /// <summary>
+    /// Register...
+    /// </summary>
+    /// <returns>Status of the operation.</returns>
+    [HttpPost("SignIn")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> SignIn([FromBody] RegisterCommand request)
+    {
+        var token = await _mediator.Send(request);
+        return Ok(token);
+    }
+
+
+
+    /// <summary>
     /// Update Mobile Firabase Notification Token...
     /// </summary>
     /// <returns>Status of the operation.</returns>
@@ -41,6 +56,8 @@ public class AuthendicationController : AController
         var token = await _mediator.Send(request);
         return Ok(token);
     }
+
+
 
 
 

@@ -8,7 +8,7 @@ namespace Domain.Domains.IdentityDomain.Entities
     {
         public enum RolesEnum
         {
-            SystemAdministrator, Admin, ApplicationClient, TesterClient
+            SystemAdministrator, Admin, Member, Tester
         }
 
         public override string? NormalizedName { get => base.NormalizedName; set => base.NormalizedName = value; }

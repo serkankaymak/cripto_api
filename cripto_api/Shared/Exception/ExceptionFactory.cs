@@ -2,6 +2,7 @@
 {
     public static class ExceptionFactory
     {
+        #region ApiResponses
         // 400 - Bad Request
         public static Exception BadRequest(string message = "The request is invalid or malformed.")
             => new ArgumentException(message);
@@ -25,9 +26,15 @@
         // 500 - Internal Server Error
         public static Exception InternalServerError(string message = "An unexpected internal server error has occurred.")
             => new Exception(message);
+        #endregion
+
 
         // İş kuralı ihlalleri vb. özel durumlar
         public static Exception BusinessRuleViolation(string message = "A business rule has been violated.")
             => new ApplicationException(message);
+
+        public static ArgumentException ArgumentException(string message = "Invalid argument provided.")
+             => new ArgumentException(message);
+
     }
 }

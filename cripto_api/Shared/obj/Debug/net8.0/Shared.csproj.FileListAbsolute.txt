@@ -11,3 +11,16 @@ C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\Share
 C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\refint\Shared.dll
 C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\Shared.pdb
 C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\ref\Shared.dll
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\bin\Debug\net8.0\Shared.deps.json
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\bin\Debug\net8.0\Shared.dll
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\bin\Debug\net8.0\Shared.pdb
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\Shared.csproj.AssemblyReference.cache
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\Shared.sourcelink.json
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\Shared.dll
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\refint\Shared.dll
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\Shared.pdb
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Shared\obj\Debug\net8.0\ref\Shared.dll

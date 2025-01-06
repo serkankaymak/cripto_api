@@ -1,14 +1,298 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\",
+  "WorkspaceRootPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\useridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\externalservices\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\externalservices\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\externalservices\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\externalservices\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\infastructure\\persistance\\repositories\\criptorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\persistance\\repositories\\criptorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\infastructure\\infastructue\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\infastructue\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\auserdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\auserdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\useridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\useridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\shared\\eventbus\\ieventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|solutionrelative:shared\\eventbus\\ieventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\shared\\eventbus\\inmemoryeventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|solutionrelative:shared\\eventbus\\inmemoryeventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\infastructure\\infastructue\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\infastructue\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\roleidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\roleidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\jwtservice\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\jwtservice\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\controllers\\authendicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\controllers\\authendicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\cqrs\\q\\getauthorizationtokenquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\cqrs\\q\\getauthorizationtokenquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\cqrs\\q\\getanalysisofcriptoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\cqrs\\q\\getanalysisofcriptoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\cqrs\\c\\updatemobileclientnotificationtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\cqrs\\c\\updatemobileclientnotificationtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\cqrs\\c\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\cqrs\\c\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\cqrs\\q\\getcryptosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\cqrs\\q\\getcryptosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\cqrs\\q\\notlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\cqrs\\q\\notlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\externalservices\\icriptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\externalservices\\icriptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\internalservices\\mobilepushnotificationservice\\imobilepushnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\internalservices\\mobilepushnotificationservice\\imobilepushnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\internalservices\\mobilepushnotificationservice\\iosmobilepushnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\internalservices\\mobilepushnotificationservice\\iosmobilepushnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\internalservices\\mobilepushnotificationservice\\androidpushnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\internalservices\\mobilepushnotificationservice\\androidpushnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\internalservices\\emailservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\internalservices\\emailservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\events\\eventhandlers\\applicationeventhandlerimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\events\\eventhandlers\\applicationeventhandlerimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\shared\\exception\\exceptionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|solutionrelative:shared\\exception\\exceptionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\dtos\\tickerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\dtos\\tickerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\dtos\\cryptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\dtos\\cryptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\dtos\\cryproanalysesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\dtos\\cryproanalysesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\dtos\\hubs\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\dtos\\hubs\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\criptodomain\\entities\\crypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\criptodomain\\entities\\crypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\roleclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\roleclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\events\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\events\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\events\\usermobilenotificationtokenupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\events\\usermobilenotificationtokenupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\jwtservice\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\jwtservice\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\usertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\usertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\mapping\\abstractions\\imappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\mapping\\abstractions\\imappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\mapping\\mapperfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\mapping\\mapperfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\mapping\\cryptomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\mapping\\cryptomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\mapping\\criptomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\mapping\\criptomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\settings\\firebasepushnotificationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\settings\\firebasepushnotificationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\settings\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\settings\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\settings\\apiendpointconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\settings\\apiendpointconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\infastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\infastructure\\persistance\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\persistance\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\infastructure\\persistance\\repositories\\genericrepository\u0027t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\persistance\\repositories\\genericrepository\u0027t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\infastructure\\persistance\\repositories\\cryptodataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\persistance\\repositories\\cryptodataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\internalservices\\icryptodataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\internalservices\\icryptodataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\internalservices\\cryptohttprequestservice\\cryptohttprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\internalservices\\cryptohttprequestservice\\cryptohttprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\internalservices\\cryptohttprequestservice\\cryptodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\internalservices\\cryptohttprequestservice\\cryptodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\jwtservice\\jwtconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\jwtservice\\jwtconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\extensions\\configuration\\configurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\extensions\\configuration\\configurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\validators\\jwtvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\validators\\jwtvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\criptodomain\\cryptotechnicalanalyses\\dtos\\obvresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\criptodomain\\cryptotechnicalanalyses\\dtos\\obvresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\criptodomain\\cryptotechnicalanalyses\\dtos\\bollingerbandsresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\criptodomain\\cryptotechnicalanalyses\\dtos\\bollingerbandsresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\criptodomain\\cryptotechnicalanalyses\\cryptotechnicalanalyses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\criptodomain\\cryptotechnicalanalyses\\cryptotechnicalanalyses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\userhasrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\userhasrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\repositories\\igenericrepository\u0027t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\igenericrepository\u0027t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\events\\usercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\events\\usercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\events\\domaineventhandlerimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\events\\domaineventhandlerimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\events\\iapplicationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\events\\iapplicationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\events\\tickersfetchedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\events\\tickersfetchedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\events\\tickerfetchfailedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\events\\tickerfetchfailedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\shared\\eventbus\\ieventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|solutionrelative:shared\\eventbus\\ieventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\jobs\\cryptodatajob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\jobs\\cryptodatajob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\iexternalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\iexternalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\shared\\eventbus\\ieventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|solutionrelative:shared\\eventbus\\ieventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\shared\\eventbus\\ievent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4AC31B-CB9D-4107-A5CE-07627B7122DB}|Shared\\Shared.csproj|solutionrelative:shared\\eventbus\\ievent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,33 +301,956 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 160,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 286,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserIdentity.cs",
-              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
-              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
-              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
-              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAqAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Program.cs",
+              "RelativeDocumentMoniker": "api\\Program.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Program.cs",
+              "RelativeToolTip": "api\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAADgvzUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T15:11:04.441Z",
+              "WhenOpened": "2025-01-06T19:48:40.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CriptoRepository.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Persistance\\Repositories\\CriptoRepository.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Persistance\\Repositories\\CriptoRepository.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Persistance\\Repositories\\CriptoRepository.cs",
+              "RelativeToolTip": "Infastructure\\Persistance\\Repositories\\CriptoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T22:19:01.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructue\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Infastructue\\Services\\NotificationService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructue\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Infastructure\\Infastructue\\Services\\NotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:38:19.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\ExternalServices\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ExternalServices\\INotificationService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\ExternalServices\\INotificationService.cs",
+              "RelativeToolTip": "Application\\Services\\ExternalServices\\INotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:33:54.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserPreferences.cs",
-              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
-              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
-              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
-              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Title": "IIdentityService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\ExternalServices\\IIdentityService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ExternalServices\\IIdentityService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\ExternalServices\\IIdentityService.cs",
+              "RelativeToolTip": "Application\\Services\\ExternalServices\\IIdentityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T14:58:49.656Z",
+              "WhenOpened": "2025-01-05T20:05:40.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEventDispatcher.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\EventBus\\IEventDispatcher.cs",
+              "RelativeDocumentMoniker": "Shared\\EventBus\\IEventDispatcher.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\EventBus\\IEventDispatcher.cs",
+              "RelativeToolTip": "Shared\\EventBus\\IEventDispatcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:23:36.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InMemoryEventBus.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\EventBus\\InMemoryEventBus.cs",
+              "RelativeDocumentMoniker": "Shared\\EventBus\\InMemoryEventBus.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\EventBus\\InMemoryEventBus.cs",
+              "RelativeToolTip": "Shared\\EventBus\\InMemoryEventBus.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAMwCYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:23:39.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserIdentity.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:56:02.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IdentityService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructue\\Services\\IdentityService.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Infastructue\\Services\\IdentityService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructue\\Services\\IdentityService.cs",
+              "RelativeToolTip": "Infastructure\\Infastructue\\Services\\IdentityService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwEsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:24:50.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoleIdentity.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\RoleIdentity.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\RoleIdentity.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\RoleIdentity.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\RoleIdentity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:37:31.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IJwtTokenService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\JwtService\\IJwtTokenService.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\JwtService\\IJwtTokenService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\JwtService\\IJwtTokenService.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\JwtService\\IJwtTokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:42:12.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthendicationController.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\AuthendicationController.cs",
+              "RelativeDocumentMoniker": "api\\Controllers\\AuthendicationController.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\AuthendicationController.cs",
+              "RelativeToolTip": "api\\Controllers\\AuthendicationController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:15:03.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetAuthorizationTokenQuery.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\GetAuthorizationTokenQuery.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Q\\GetAuthorizationTokenQuery.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\GetAuthorizationTokenQuery.cs",
+              "RelativeToolTip": "Application\\CQRS\\Q\\GetAuthorizationTokenQuery.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:10:27.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetAnalysisOfCriptoQuery.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\GetAnalysisOfCriptoQuery.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Q\\GetAnalysisOfCriptoQuery.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\GetAnalysisOfCriptoQuery.cs",
+              "RelativeToolTip": "Application\\CQRS\\Q\\GetAnalysisOfCriptoQuery.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA0wDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:10:01.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateMobileClientNotificationToken.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\C\\UpdateMobileClientNotificationToken.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\C\\UpdateMobileClientNotificationToken.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\C\\UpdateMobileClientNotificationToken.cs",
+              "RelativeToolTip": "Application\\CQRS\\C\\UpdateMobileClientNotificationToken.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:22:33.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\C\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\C\\RegisterCommand.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\C\\RegisterCommand.cs",
+              "RelativeToolTip": "Application\\CQRS\\C\\RegisterCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:28:12.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Dtos\\TokenDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\TokenDto.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Dtos\\TokenDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\TokenDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:07:05.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetCryptosQuery.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\GetCryptosQuery.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Q\\GetCryptosQuery.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\GetCryptosQuery.cs",
+              "RelativeToolTip": "Application\\CQRS\\Q\\GetCryptosQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:10:33.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Notlar.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\Notlar.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Q\\Notlar.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\Notlar.cs",
+              "RelativeToolTip": "Application\\CQRS\\Q\\Notlar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:31:29.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICriptoService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\ExternalServices\\ICriptoService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ExternalServices\\ICriptoService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\ExternalServices\\ICriptoService.cs",
+              "RelativeToolTip": "Application\\Services\\ExternalServices\\ICriptoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:53:15.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IMobilePushNotificationService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\MobilePushNotificationService\\IMobilePushNotificationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\InternalServices\\MobilePushNotificationService\\IMobilePushNotificationService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\MobilePushNotificationService\\IMobilePushNotificationService.cs",
+              "RelativeToolTip": "Application\\Services\\InternalServices\\MobilePushNotificationService\\IMobilePushNotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:26:50.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AndroidPushNotificationService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\MobilePushNotificationService\\AndroidPushNotificationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\InternalServices\\MobilePushNotificationService\\AndroidPushNotificationService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\MobilePushNotificationService\\AndroidPushNotificationService.cs",
+              "RelativeToolTip": "Application\\Services\\InternalServices\\MobilePushNotificationService\\AndroidPushNotificationService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:45:31.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\EmailService\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\InternalServices\\EmailService\\IEmailService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\EmailService\\IEmailService.cs",
+              "RelativeToolTip": "Application\\Services\\InternalServices\\EmailService\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:37:04.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplicationEventHandlerImp.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Events\\EventHandlers\\ApplicationEventHandlerImp.cs",
+              "RelativeDocumentMoniker": "Application\\Events\\EventHandlers\\ApplicationEventHandlerImp.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Events\\EventHandlers\\ApplicationEventHandlerImp.cs",
+              "RelativeToolTip": "Application\\Events\\EventHandlers\\ApplicationEventHandlerImp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:39:31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IosMobilePushNotificationService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\MobilePushNotificationService\\IosMobilePushNotificationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\InternalServices\\MobilePushNotificationService\\IosMobilePushNotificationService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\MobilePushNotificationService\\IosMobilePushNotificationService.cs",
+              "RelativeToolTip": "Application\\Services\\InternalServices\\MobilePushNotificationService\\IosMobilePushNotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:45:37.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ExceptionFactory.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Exception\\ExceptionFactory.cs",
+              "RelativeDocumentMoniker": "Shared\\Exception\\ExceptionFactory.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Exception\\ExceptionFactory.cs",
+              "RelativeToolTip": "Shared\\Exception\\ExceptionFactory.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:16:56.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CryproAnalysesDto.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Dtos\\CryproAnalysesDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\CryproAnalysesDto.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Dtos\\CryproAnalysesDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\CryproAnalysesDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:09:40.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MessageDto.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Dtos\\Hubs\\MessageDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\Hubs\\MessageDto.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Dtos\\Hubs\\MessageDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\Hubs\\MessageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:09:36.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Crypto.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\CriptoDomain\\Entities\\Crypto.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\CriptoDomain\\Entities\\Crypto.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\CriptoDomain\\Entities\\Crypto.cs",
+              "RelativeToolTip": "Domain\\Domains\\CriptoDomain\\Entities\\Crypto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:09:23.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RoleClaim.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\RoleClaim.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\RoleClaim.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\RoleClaim.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\RoleClaim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:07:22.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TickerDto.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Dtos\\TickerDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\TickerDto.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Dtos\\TickerDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\TickerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:07:02.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CryptoDto.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Dtos\\CryptoDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\CryptoDto.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Dtos\\CryptoDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\CryptoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:06:59.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserToken.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserToken.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\UserToken.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserToken.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\UserToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:31:45.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\JwtService\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\JwtService\\JwtTokenService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\JwtService\\JwtTokenService.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\JwtService\\JwtTokenService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:42:18.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserPreferences.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\UserPreferences.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:56:48.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IMappers.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Mapping\\abstractions\\IMappers.cs",
+              "RelativeDocumentMoniker": "Application\\Mapping\\abstractions\\IMappers.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Mapping\\abstractions\\IMappers.cs",
+              "RelativeToolTip": "Application\\Mapping\\abstractions\\IMappers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:55:36.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserMobileNotificationTokenUpdatedEvent.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Events\\UserMobileNotificationTokenUpdatedEvent.cs",
+              "RelativeDocumentMoniker": "Domain\\Events\\UserMobileNotificationTokenUpdatedEvent.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Events\\UserMobileNotificationTokenUpdatedEvent.cs",
+              "RelativeToolTip": "Domain\\Events\\UserMobileNotificationTokenUpdatedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:34:25.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IDomainEvent.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Events\\IDomainEvent.cs",
+              "RelativeDocumentMoniker": "Domain\\Events\\IDomainEvent.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Events\\IDomainEvent.cs",
+              "RelativeToolTip": "Domain\\Events\\IDomainEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:00:51.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MapperFacade.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Mapping\\MapperFacade.cs",
+              "RelativeDocumentMoniker": "Application\\Mapping\\MapperFacade.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Mapping\\MapperFacade.cs",
+              "RelativeToolTip": "Application\\Mapping\\MapperFacade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:55:34.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CryptoMapper.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Mapping\\CryptoMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mapping\\CryptoMapper.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Mapping\\CryptoMapper.cs",
+              "RelativeToolTip": "Application\\Mapping\\CryptoMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:55:32.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CriptoMappingProfile.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Mapping\\CriptoMappingProfile.cs",
+              "RelativeDocumentMoniker": "Application\\Mapping\\CriptoMappingProfile.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Mapping\\CriptoMappingProfile.cs",
+              "RelativeToolTip": "Application\\Mapping\\CriptoMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:55:28.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EmailConfig.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Settings\\EmailConfig.cs",
+              "RelativeDocumentMoniker": "Application\\Settings\\EmailConfig.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Settings\\EmailConfig.cs",
+              "RelativeToolTip": "Application\\Settings\\EmailConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:54:53.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ApiEndpointConfig.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Settings\\ApiEndpointConfig.cs",
+              "RelativeDocumentMoniker": "Application\\Settings\\ApiEndpointConfig.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Settings\\ApiEndpointConfig.cs",
+              "RelativeToolTip": "Application\\Settings\\ApiEndpointConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:54:18.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infastructure\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infastructure\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:54:07.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Persistance\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Persistance\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Persistance\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Infastructure\\Persistance\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:53:47.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CryptoDataService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Persistance\\Repositories\\CryptoDataService.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Persistance\\Repositories\\CryptoDataService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Persistance\\Repositories\\CryptoDataService.cs",
+              "RelativeToolTip": "Infastructure\\Persistance\\Repositories\\CryptoDataService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:53:30.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FirebasePushNotificationConfig.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Settings\\FirebasePushNotificationConfig.cs",
+              "RelativeDocumentMoniker": "Application\\Settings\\FirebasePushNotificationConfig.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Settings\\FirebasePushNotificationConfig.cs",
+              "RelativeToolTip": "Application\\Settings\\FirebasePushNotificationConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:47:09.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ICryptoDataService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\ICryptoDataService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\InternalServices\\ICryptoDataService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\ICryptoDataService.cs",
+              "RelativeToolTip": "Application\\Services\\InternalServices\\ICryptoDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:53:15.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CryptoHttpRequestService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\CryptoHttpRequestService\\CryptoHttpRequestService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\InternalServices\\CryptoHttpRequestService\\CryptoHttpRequestService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\CryptoHttpRequestService\\CryptoHttpRequestService.cs",
+              "RelativeToolTip": "Application\\Services\\InternalServices\\CryptoHttpRequestService\\CryptoHttpRequestService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:51:34.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CryptoData.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\CryptoHttpRequestService\\CryptoData.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\InternalServices\\CryptoHttpRequestService\\CryptoData.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\InternalServices\\CryptoHttpRequestService\\CryptoData.cs",
+              "RelativeToolTip": "Application\\Services\\InternalServices\\CryptoHttpRequestService\\CryptoData.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:51:26.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GenericRepository\u0027T.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Persistance\\Repositories\\GenericRepository\u0027T.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Persistance\\Repositories\\GenericRepository\u0027T.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Persistance\\Repositories\\GenericRepository\u0027T.cs",
+              "RelativeToolTip": "Infastructure\\Persistance\\Repositories\\GenericRepository\u0027T.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIQAAACyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:13:20.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "JwtConfig.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\JwtService\\JwtConfig.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\JwtService\\JwtConfig.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\JwtService\\JwtConfig.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\JwtService\\JwtConfig.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:43:26.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ConfigurationExtension.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Extensions\\Configuration\\ConfigurationExtension.cs",
+              "RelativeDocumentMoniker": "api\\Extensions\\Configuration\\ConfigurationExtension.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Extensions\\Configuration\\ConfigurationExtension.cs",
+              "RelativeToolTip": "api\\Extensions\\Configuration\\ConfigurationExtension.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABcAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:48:53.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "JwtValidator.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Validators\\JwtValidator.cs",
+              "RelativeDocumentMoniker": "api\\Validators\\JwtValidator.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Validators\\JwtValidator.cs",
+              "RelativeToolTip": "api\\Validators\\JwtValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:48:14.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Domain",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-06T19:44:15.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Application",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-06T19:44:08.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ObvResult.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\Dtos\\ObvResult.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\Dtos\\ObvResult.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\Dtos\\ObvResult.cs",
+              "RelativeToolTip": "Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\Dtos\\ObvResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:39:58.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "BollingerBandsResult.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\Dtos\\BollingerBandsResult.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\Dtos\\BollingerBandsResult.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\Dtos\\BollingerBandsResult.cs",
+              "RelativeToolTip": "Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\Dtos\\BollingerBandsResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:39:55.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CryptoTechnicalAnalyses.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\CryptoTechnicalAnalyses.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\CryptoTechnicalAnalyses.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\CryptoTechnicalAnalyses.cs",
+              "RelativeToolTip": "Domain\\Domains\\CriptoDomain\\CryptoTechnicalAnalyses\\CryptoTechnicalAnalyses.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:39:46.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UserHasRole.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserHasRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\UserHasRole.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserHasRole.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\UserHasRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:39:38.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserLogin.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\UserLogin.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserLogin.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:31:53.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IGenericRepository\u0027T.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Repositories\\IGenericRepository\u0027T.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\IGenericRepository\u0027T.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Repositories\\IGenericRepository\u0027T.cs",
+              "RelativeToolTip": "Domain\\Repositories\\IGenericRepository\u0027T.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAMwBoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:14:32.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UserCreatedEvent.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Events\\UserCreatedEvent.cs",
+              "RelativeDocumentMoniker": "Domain\\Events\\UserCreatedEvent.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Events\\UserCreatedEvent.cs",
+              "RelativeToolTip": "Domain\\Events\\UserCreatedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:00:09.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DomainEventHandlerImp.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Events\\DomainEventHandlerImp.cs",
+              "RelativeDocumentMoniker": "Domain\\Events\\DomainEventHandlerImp.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Events\\DomainEventHandlerImp.cs",
+              "RelativeToolTip": "Domain\\Events\\DomainEventHandlerImp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:40:54.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IApplicationEvent.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Events\\IApplicationEvent.cs",
+              "RelativeDocumentMoniker": "Application\\Events\\IApplicationEvent.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Events\\IApplicationEvent.cs",
+              "RelativeToolTip": "Application\\Events\\IApplicationEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:01:36.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "TickersFetchedEvent.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Events\\TickersFetchedEvent.cs",
+              "RelativeDocumentMoniker": "Application\\Events\\TickersFetchedEvent.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Events\\TickersFetchedEvent.cs",
+              "RelativeToolTip": "Application\\Events\\TickersFetchedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:02:05.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "TickerFetchFailedEvent.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Events\\TickerFetchFailedEvent.cs",
+              "RelativeDocumentMoniker": "Application\\Events\\TickerFetchFailedEvent.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Events\\TickerFetchFailedEvent.cs",
+              "RelativeToolTip": "Application\\Events\\TickerFetchFailedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:32:18.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "CryptoDataJob.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Jobs\\CryptoDataJob.cs",
+              "RelativeDocumentMoniker": "api\\Jobs\\CryptoDataJob.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Jobs\\CryptoDataJob.cs",
+              "RelativeToolTip": "api\\Jobs\\CryptoDataJob.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAD4vw8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:26:56.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IExternalService.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\IExternalService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\IExternalService.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\IExternalService.cs",
+              "RelativeToolTip": "Application\\Services\\IExternalService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:25:06.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "IEventPublisher.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\EventBus\\IEventPublisher.cs",
+              "RelativeDocumentMoniker": "Shared\\EventBus\\IEventPublisher.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\EventBus\\IEventPublisher.cs",
+              "RelativeToolTip": "Shared\\EventBus\\IEventPublisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:23:57.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IEventHandler.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\EventBus\\IEventHandler.cs",
+              "RelativeDocumentMoniker": "Shared\\EventBus\\IEventHandler.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\EventBus\\IEventHandler.cs",
+              "RelativeToolTip": "Shared\\EventBus\\IEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:23:38.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "IEvent.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\EventBus\\IEvent.cs",
+              "RelativeDocumentMoniker": "Shared\\EventBus\\IEvent.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\EventBus\\IEvent.cs",
+              "RelativeToolTip": "Shared\\EventBus\\IEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:23:35.363Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 184,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AUserdentity.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\AUserdentity.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\AUserdentity.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\AUserdentity.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\AUserdentity.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwCIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:38:38.042Z",
               "EditorCaption": ""
             }
           ]

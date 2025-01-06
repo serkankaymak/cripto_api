@@ -1,5 +1,6 @@
 ﻿using Application.Services.InternalServices.EmailService;
 using Application.Settings;
+using Domain.Domains.IdentityDomain.JwtService;
 using Hangfire;
 using Hangfire.SQLite;
 
@@ -14,7 +15,7 @@ namespace api.Extensions.Configuration
             var emailConfig = builder.Configuration.GetSection("EmailSenderSetings").Get<EmailConfig>();
             if (emailConfig != null)
                 builder.Services.AddSingleton(emailConfig);
-            builder.Services.AddScoped<IEmailService, EmailService>();
+            builder.Services.AddScoped<EmailService, EmailService>();
         }
         public static void configureJwtSettings(this WebApplicationBuilder builder)
         {

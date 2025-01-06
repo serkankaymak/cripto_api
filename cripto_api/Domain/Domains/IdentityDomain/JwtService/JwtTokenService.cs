@@ -1,11 +1,10 @@
-﻿using Application.Settings;
-using Domain.Domains.IdentityDomain.Entities;
+﻿using Domain.Domains.IdentityDomain.Entities;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace Application.Services.InternalServices.JwtService;
+namespace Domain.Domains.IdentityDomain.JwtService;
 public class JwtTokenService : IJwtTokenService
 {
     private readonly JwtConfig jwtSettings;

@@ -3,38 +3,32 @@ using Application;
 using Application.Mapping;
 using Application.Settings;
 using Hangfire;
-using Hangfire.MemoryStorage;
 using Infastructure.EventBus;
 using Infastructure;
 using Infrastructure.Infrastructure;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Shared.Events;
-using Hangfire.SQLite;
 using Infastructure.Persistance.Repositories;
 using Application.Repositories;
-using System.Reflection;
 using Microsoft.AspNetCore.Identity;
 using Infastructure.Infastructue.Services;
-using Application.Events;
-using api.EmailSender;
-using Microsoft.Extensions.DependencyInjection;
-using Shared.EmailSender;
 using api.Hubs;
 using Application.Services.InternalServices;
-using Application.Services.InternalServices.JwtService;
+using Domain.Domains.IdentityDomain.JwtService;
 using Application.Services.ExternalServices;
 using Application.Services.InternalServices.CryptoHttpRequestService;
 using Newtonsoft.Json;
-using Application.Mappings;
-using Application.Services.InternalServices.EmailService;
 using api.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Domain.Domains.IdentityDomain.Entities;
 using Domain.Domains.ChyriptoDomain.CryptoTechnicalAnalyses;
 using Shared.LogCat;
 using api.Middlewares;
-using Application.Services.MobilePushNotificationService;
+using Application.Services.InternalServices.MobilePushNotificationService;
+using Application.Mapping.abstractions;
+using Application.Events;
+using Application.Events.EventHandlers;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -143,6 +137,11 @@ builder.Services.AddSingleton<IEventDispatcher>(sp =>
     // ve TickersFetchedEvent için handler olduğunu varsayar.
     //dispatcher.Subscribe<TickerFetchFailedEvent, NotificationService>();
     //dispatcher.Subscribe<TickersFetchedEvent, NotificationService>();
+
+    dispatcher.Subscribe<TickersFetchedEvent, ApplicationEventHandlerImp>();
+    dispatcher.Subscribe<TickerFetchFailedEvent, ApplicationEventHandlerImp>();
+    dispatcher.Subscribe<UserMobileNotificationTokenUpdatedEvent, ApplicationEventHandlerImp>();
+
 
     return dispatcher;
 });

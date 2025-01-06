@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Services.InternalServices.JwtService;
+namespace Domain.Domains.IdentityDomain.JwtService;
 
 public interface IJwtTokenService
 {

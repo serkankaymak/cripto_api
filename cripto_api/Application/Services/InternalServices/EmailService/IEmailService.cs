@@ -18,12 +18,11 @@ public interface IEmailService
 
 public class EmailService : IEmailService
 {
-    EmailConfig _emailConfiguration;
+
     EmailSenderImpl emailSender;
 
     public EmailService(IOptions<EmailConfig> emailConfiguration)
     {
-        this._emailConfiguration = emailConfiguration.Value;
         emailSender = new EmailSenderImpl();
         emailSender.port = emailConfiguration.Value.port;
         emailSender.host = emailConfiguration.Value.host;

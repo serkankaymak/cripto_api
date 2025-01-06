@@ -22,3 +22,9 @@ public class ApiEndpointConfig
     public required string Secret { get; set; }
 
 }
+
+public class CryptoApiConfig
+{
+    public List<ApiEndpointConfig> ApiEndpoints { get; set; } = new List<ApiEndpointConfig>();
+
+}

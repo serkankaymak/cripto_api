@@ -1,4 +1,5 @@
-﻿using Application.Services.InternalServices.JwtService;
+﻿
+using Domain.Domains.IdentityDomain.JwtService;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 

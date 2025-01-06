@@ -1,4 +1,4 @@
-﻿using Application.Mappings;
+﻿using Application.Mapping.abstractions;
 using AutoMapper;
 using System;
 using System.Collections.Generic;

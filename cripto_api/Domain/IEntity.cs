@@ -5,9 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Domain;
-public interface IEntity
-{
-}
+public interface IEntity { }
 
 public interface ISoftDeleteable
 {

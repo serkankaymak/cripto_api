@@ -1,5 +1,5 @@
 ﻿using Application.Mapping;
-using Application.Mappings;
+using Application.Mapping.abstractions;
 using Application.Services.InternalServices;
 using Application.Services.InternalServices.CryptoHttpRequestService;
 using Application.Settings;

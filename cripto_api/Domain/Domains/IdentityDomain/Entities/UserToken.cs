@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Shared.ApiResponse;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -12,17 +13,17 @@ namespace Domain.Domains.IdentityDomain.Entities
     public class UserToken : IdentityUserToken<int>, IEntity
     {
         public int Id { get; set; }
-        public string? jwt { get; set; }
-        public DateTime? jwtExpiredAt { get; set; }
-        public string? refreshToken { get; set; }
-        public DateTime? refreshTokenExpiredAt { get; set; }
-
+        public string? Jwt { get; set; }
+        public DateTime? JwtExpiredAt { get; set; }
+        public string? RefreshToken { get; set; }
+        public DateTime? RefreshTokenExpiredAt { get; set; }
 
 
         public void UpdateToken(string jwt, string? refreshToken = null)
         {
-            this.jwt = jwt;
-            this.refreshToken = refreshToken;
+            if (jwt.Length < 10) throw ExceptionFactory.UnprocessableEntity();
+            this.Jwt = jwt;
+            this.RefreshToken = refreshToken;
         }
     }
 }

@@ -1,21 +1,10 @@
-﻿using Application.Dtos;
-using Application.Mapping;
-using Application.Mappings;
-using Application.Repositories;
+﻿using Application.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ZL.DDD.Base;
 
 namespace Infastructure.Persistance.Repositories;
 public class CriptoRepository : AGenericRepository<Crypto>, ICriptoRepository
 {
-    public CriptoRepository(ApplicationDbContext context) : base(context)
-    {
-    }
+    public CriptoRepository(ApplicationDbContext context) : base(context) { }
 
     Crypto _select(Crypto x)
     {
@@ -47,15 +36,11 @@ public class CriptoRepository : AGenericRepository<Crypto>, ICriptoRepository
                 }).ToList()
         };
     }
-
-
     public async Task<IEnumerable<Crypto>> GetCriptosWithTickers(DateTime dateTime)
     {
-        return await GetAllAsync(
+        return await WhereAsync(
                  includes: new Func<IQueryable<Crypto>, IQueryable<Crypto>>[]
-                 {
-                    query => query.Include(x => x.Tickers.Where(t => t.Created >= dateTime)).Select(x=>_select(x))
-                 });
+                 {query => query.Include(x => x.Tickers.Where(t => t.Created >= dateTime)).Select(x=>_select(x))});
     }
 
     public async Task<Crypto> GetCryptoWithTickers(int criptoId, DateTime dateTime)

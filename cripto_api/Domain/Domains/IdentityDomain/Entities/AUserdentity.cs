@@ -13,7 +13,10 @@ namespace Domain.Domains.IdentityDomain.Entities
     public abstract class AUserIdentity : IdentityUser<int>
     {
 
-        public AUserIdentity() { Roles = new HashSet<RoleIdentity>(); }
+        public AUserIdentity()
+        {
+            Roles = new HashSet<RoleIdentity>();
+        }
 
         [Required]
         [StringLength(50)]

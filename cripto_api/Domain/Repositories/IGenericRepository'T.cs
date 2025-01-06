@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Domains.IdentityDomain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -22,22 +23,10 @@ public class PagedResult<T>
 
 public interface IGenericRepository<T> where T : class
 {
-    Task<IEnumerable<T>> GetAllAsync(
-        Func<IQueryable<T>, IQueryable<T>>[]? includes = null);
-
-    Task<PagedResult<T>> GetPagedAsync(
-        int page,
-        int pageSize,
-        Expression<Func<T, bool>>? predicate = null,
-        Func<IQueryable<T>, IQueryable<T>>[]? includes = null);
-
-    Task<T> GetByIdAsync(object id);
-
-    Task<IEnumerable<T>> FindAsync(
-        Expression<Func<T, bool>> predicate,
-        Func<IQueryable<T>, IQueryable<T>>[]? includes = null);
-
     Task AddAsync(T entity);
-    void Update(T entity);
+    Task<IEnumerable<T>> WhereAsync(Expression<Func<T, bool>>? predicate = null, Func<IQueryable<T>, IQueryable<T>>[]? includes = null, bool includeSoftDeleted = false);
+    Task<T> GetByIdAsync(object id);
+    Task<PagedResult<T>> GetPagedAsync(int page, int pageSize, Expression<Func<T, bool>>? predicate = null, Func<IQueryable<T>, IQueryable<T>>[]? includes = null, bool includeSoftDeleted = false);
     void Remove(T entity);
+    void Update(T entity);
 }

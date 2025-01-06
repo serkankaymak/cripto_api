@@ -10,6 +10,12 @@
             </summary>
             <returns>Status of the operation.</returns>
         </member>
+        <member name="M:api.Controllers.AuthendicationController.SignIn(Application.CQRS.C.RegisterCommand)">
+            <summary>
+            Register...
+            </summary>
+            <returns>Status of the operation.</returns>
+        </member>
         <member name="M:api.Controllers.AuthendicationController.UpdateMobileNotificationToken(Application.CQRS.C.UpdateMobileClientNotificationToken)">
             <summary>
             Update Mobile Firabase Notification Token...
