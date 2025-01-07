@@ -18,12 +18,6 @@ C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.
 C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
 C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.pdb
 C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.sourcelink.json
 D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
 D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Infastructure.dll
 D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Infastructure.pdb
@@ -33,6 +27,12 @@ D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\D
 D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Application.pdb
 D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Domain.pdb
 D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Shared.pdb
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.sourcelink.json
 D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
 D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.dll
 D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
