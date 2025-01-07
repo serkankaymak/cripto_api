@@ -13,7 +13,5 @@ namespace Domain.Domains.IdentityDomain.Entities
     {
         [Key]
         public int Id { get; set; }
-        [NotMapped]
-        public string? Name { get; set; }
     }
 }

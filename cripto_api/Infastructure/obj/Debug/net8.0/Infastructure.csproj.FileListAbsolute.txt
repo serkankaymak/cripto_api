@@ -1,266 +1,40 @@
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 1\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto.api - 2\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto3\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto5\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto6\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto\crypto7\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto\crypto8\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\serkan.kaymak\Desktop\crypto\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto9\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto11\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.dll
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.dll
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.dll
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Application.pdb
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Domain.pdb
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\bin\Debug\net8.0\Shared.pdb
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.dll
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\Infastructure.pdb
-C:\Users\onur\Desktop\crypto12\api\crypto.api - 3\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Infastructure.dll
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Infastructure.pdb
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Application.dll
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Shared.dll
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Application.pdb
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Shared.pdb
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.sourcelink.json
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.dll
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.pdb
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.csproj.AssemblyReference.cache
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfoInputs.cache
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.AssemblyInfo.cs
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.csproj.CoreCompileInputs.cache
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.sourcelink.json
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Infastructure.deps.json
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Infastructure.dll
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Infastructure.pdb
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Application.dll
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Domain.dll
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Shared.dll
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Application.pdb
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Domain.pdb
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\bin\Debug\net8.0\Shared.pdb
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastru.CD45A3C5.Up2Date
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.dll
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\refint\Infastructure.dll
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\Infastructure.pdb
+D:\softwareEngineering\projeler\cripto\cripto_api\cripto_api\Infastructure\obj\Debug\net8.0\ref\Infastructure.dll

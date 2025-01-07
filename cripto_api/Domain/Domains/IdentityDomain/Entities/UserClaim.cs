@@ -10,7 +10,5 @@ namespace Domain.Domains.IdentityDomain.Entities
 {
     public class UserClaim : IdentityUserClaim<int>, IEntity
     {
-        [NotMapped]
-        public string Name { get; set; }
     }
 }

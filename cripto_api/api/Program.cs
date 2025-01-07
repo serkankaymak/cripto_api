@@ -3,37 +3,32 @@ using Application;
 using Application.Mapping;
 using Application.Settings;
 using Hangfire;
-using Hangfire.MemoryStorage;
 using Infastructure.EventBus;
 using Infastructure;
 using Infrastructure.Infrastructure;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Shared.Events;
-using Hangfire.SQLite;
 using Infastructure.Persistance.Repositories;
 using Application.Repositories;
-using System.Reflection;
 using Microsoft.AspNetCore.Identity;
 using Infastructure.Infastructue.Services;
-using Application.Events;
-using api.EmailSender;
-using Microsoft.Extensions.DependencyInjection;
-using Shared.EmailSender;
 using api.Hubs;
 using Application.Services.InternalServices;
-using Application.Services.InternalServices.JwtService;
+using Domain.Domains.IdentityDomain.JwtService;
 using Application.Services.ExternalServices;
 using Application.Services.InternalServices.CryptoHttpRequestService;
 using Newtonsoft.Json;
-using Application.Mappings;
-using Application.Services.InternalServices.EmailService;
 using api.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Domain.Domains.IdentityDomain.Entities;
 using Domain.Domains.ChyriptoDomain.CryptoTechnicalAnalyses;
 using Shared.LogCat;
 using api.Middlewares;
+using Application.Services.InternalServices.MobilePushNotificationService;
+using Application.Mapping.abstractions;
+using Application.Events;
+using Application.Events.EventHandlers;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -97,9 +92,10 @@ builder.Services.AddAuthorization(options =>
 
 // CORS Configuration
 builder.configureCorsSettings();
-builder.Services.AddScoped<ICryptoTechnicalAnalyses, CryptoTechnicalAnalyses>();
-builder.Services.AddScoped<IRepository, Repository>();
-builder.Services.AddScoped<IDataService, DataService>();
+builder.Services.AddScoped<ICryptoTechnicalAnalyser, CryptoTechnicalAnalyses>();
+builder.Services.AddScoped<ICriptoRepository, CriptoRepository>();
+builder.Services.AddScoped<IIdentityService, IdentityService>();
+builder.Services.AddScoped<ICriptoService, CriptoService>();
 
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(CriptoMappingProfile));
@@ -142,6 +138,11 @@ builder.Services.AddSingleton<IEventDispatcher>(sp =>
     //dispatcher.Subscribe<TickerFetchFailedEvent, NotificationService>();
     //dispatcher.Subscribe<TickersFetchedEvent, NotificationService>();
 
+    dispatcher.Subscribe<TickersFetchedEvent, ApplicationEventHandlerImp>();
+    dispatcher.Subscribe<TickerFetchFailedEvent, ApplicationEventHandlerImp>();
+    dispatcher.Subscribe<UserMobileNotificationTokenUpdatedEvent, ApplicationEventHandlerImp>();
+
+
     return dispatcher;
 });
 
@@ -149,7 +150,7 @@ builder.Services.AddSingleton<IEventDispatcher>(sp =>
 builder.Services.AddScoped<ICryptoHttpRequestService, CryptoHttpRequestService>();
 
 // TickerJob
-builder.Services.AddTransient<CryptoDataJob>();
+builder.Services.AddTransient<FetchCriptosPeriodiclyJob>();
 
 // Initial Data Seeder
 builder.Services.AddSingleton<InitialDataSeeder>();
@@ -171,7 +172,7 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
 // Auth Services
-builder.Services.AddScoped<IAuthendicationService, AuthendicationService>();
+builder.Services.AddScoped<IIdentityService, IdentityService>();
 
 // Identity
 builder.Services.AddIdentity<UserIdentity, RoleIdentity>()
@@ -181,7 +182,7 @@ builder.Services.AddIdentity<UserIdentity, RoleIdentity>()
 builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 builder.Services.AddSignalR();
 
-builder.Services.AddScoped<IMobilePushNotificationService, MobilePushNotificationService>();
+builder.Services.AddScoped<IMobilePushNotificationService, AndroidPushNotificationService>();
 builder.Logging.AddFilter("Microsoft.EntityFrameworkCore.Database.Command", LogLevel.Warning);
 
 var app = builder.Build();
@@ -195,7 +196,7 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 // Zamanlanmış işi ekleyin (örnek: her saat başı)
 if (ApplicationManager.startHangfireHob)
 {
-    RecurringJob.AddOrUpdate<CryptoDataJob>(
+    RecurringJob.AddOrUpdate<FetchCriptosPeriodiclyJob>(
         "ticker-job",
         job => job.ExecuteAsync(),
         Cron.Minutely);
@@ -234,3 +235,8 @@ using (var scope = app.Services.CreateScope())
 
 Console.WriteLine("app started");
 app.Run();
+
+
+
+
+//http://192.168.1.125:5000/index.html

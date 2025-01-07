@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\auserdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\auserdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\domain\\domains\\identitydomain\\entities\\useridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD973EE-F63C-4F84-8EAF-BA5536D81238}|Domain\\Domain.csproj|solutionrelative:domain\\domains\\identitydomain\\entities\\useridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\infastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 174,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AUserdentity.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\AUserdentity.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\AUserdentity.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\AUserdentity.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\AUserdentity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T18:31:28.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infastructure\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infastructure\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAMwDQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T18:22:33.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserIdentity.cs",
+              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "RelativeDocumentMoniker": "Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "RelativeToolTip": "Domain\\Domains\\IdentityDomain\\Entities\\UserIdentity.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T18:14:48.401Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

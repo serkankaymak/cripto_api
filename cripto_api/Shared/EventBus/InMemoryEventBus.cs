@@ -1,4 +1,5 @@
-﻿using Shared.Events;
+﻿using Shared.EventBus;
+using Shared.Events;
 /**
      ASP.NET Core'da, singleton servisler içinde scoped servisleri doğrudan enjekte edemezsiniz.
      Çünkü singleton servisler uygulama ömrü boyunca yaşarlar,
@@ -35,7 +36,7 @@ public class InMemoryEventBus : IEventDispatcher
     }
 
 
-    public async Task Publish<TEvent>(TEvent @event) where TEvent : IEvent
+    public async Task Publish<TEvent>(IEventPublisher eventPublisher, TEvent @event) where TEvent : IEvent
     {
         var eventType = @event.GetType();
         if (_handlers.ContainsKey(eventType))
@@ -44,7 +45,7 @@ public class InMemoryEventBus : IEventDispatcher
             foreach (var handlerType in handlerTypes)
             {
                 // Servis sağlayıcıdan handler örneğini alın
-                var handler = (IEventHandler<TEvent>)_serviceProvider.GetService(handlerType);
+                IEventHandler<TEvent> handler = (IEventHandler<TEvent>)_serviceProvider.GetService(handlerType)!;
                 if (handler != null)
                 {
                     // Handle metodunu çağırın ve await edin

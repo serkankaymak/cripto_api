@@ -9,7 +9,7 @@ public class ApplicationDbContext : IdentityDbContext<UserIdentity, RoleIdentity
     public DbSet<Crypto> Cryptos { get; set; }
     public DbSet<Ticker> Tickers { get; set; }
 
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
     }
 
@@ -21,9 +21,14 @@ public class ApplicationDbContext : IdentityDbContext<UserIdentity, RoleIdentity
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+
+
+        base.OnModelCreating(modelBuilder);
+
+
         modelBuilder.Entity<Crypto>()
-           .HasIndex(e => e.Name)
-           .IsUnique();
+       .HasIndex(e => e.Name)
+       .IsUnique();
 
         // Crypto ve Ticker arasındaki ilişkiyi tanımla
         modelBuilder.Entity<Ticker>()
@@ -32,6 +37,17 @@ public class ApplicationDbContext : IdentityDbContext<UserIdentity, RoleIdentity
             .HasForeignKey(t => t.CryptoId)
             .OnDelete(DeleteBehavior.Cascade);
 
-        base.OnModelCreating(modelBuilder);
+        modelBuilder.Entity<UserIdentity>()
+        .Ignore(u => u.NormalizedEmail)
+        .Ignore(u => u.NormalizedUserName)
+        .Ignore(u => u.EmailOptional)
+        .Ignore(x => x.UserName)
+        .Ignore(x => x.TwoFactorEnabled)
+        .Ignore(x => x.LastActiveDate)
+        .Ignore(x => x.LockoutEnabled)
+        .Ignore(x => x.LockoutEnd)
+        .Ignore(x => x.AccessFailedCount)
+        .Ignore(x => x.EmailConfirmed)
+        .Ignore(x => x.PhoneNumberConfirmed);
     }
 }

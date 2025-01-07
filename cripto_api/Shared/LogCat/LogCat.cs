@@ -50,7 +50,7 @@ public static class LogCat
     /// <summary>
     /// Error logları her zaman yazılsın (Production dahil).
     /// </summary>
-    public static void Error(string message, Exception ex = null)
+    public static void Error(string message, Exception? ex = null)
     {
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine($"[ERROR] {DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}");

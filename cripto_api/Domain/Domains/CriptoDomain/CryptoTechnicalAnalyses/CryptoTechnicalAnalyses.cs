@@ -10,7 +10,7 @@ namespace Domain.Domains.ChyriptoDomain.CryptoTechnicalAnalyses;
 
 
 
-public interface ICryptoTechnicalAnalyses
+public interface ICryptoTechnicalAnalyser
 {
     public BollingerBandIndicator CalculateBollingerBandsWithDates(List<Ticker> tickers, int period = 20, double nbDevUp = 2, double nbDevDn = 2);
     MacdIndicator CalculateMacdWithDates(List<Ticker> tickers, int fastPeriod = 12, int slowPeriod = 26, int signalPeriod = 9);
@@ -18,7 +18,7 @@ public interface ICryptoTechnicalAnalyses
     ObvIndicator CalculateObvWithDates(List<Ticker> tickers);
 }
 
-public class CryptoTechnicalAnalyses : ICryptoTechnicalAnalyses
+public class CryptoTechnicalAnalyses : ICryptoTechnicalAnalyser
 {
     public RsiIndicator CalculateRsiWithDates(List<Ticker> tickers, int period = 14)
     {

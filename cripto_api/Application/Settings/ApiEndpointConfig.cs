@@ -15,10 +15,16 @@ public class ApiEndpointConfig
       "targetCurrency": "usd",
       "secret": "CG-kLDwuFqeuEr2qVB7C7EdMAgz"
      */
-    public string Host { get; set; }
-    public string Route { get; set; }
-    public string Query { get; set; }
-    public string TargetCurrency { get; set; }
-    public string Secret { get; set; }
+    public required string Host { get; set; }
+    public required string Route { get; set; }
+    public required string Query { get; set; }
+    public required string TargetCurrency { get; set; }
+    public required string Secret { get; set; }
+
+}
+
+public class CryptoApiConfig
+{
+    public List<ApiEndpointConfig> ApiEndpoints { get; set; } = new List<ApiEndpointConfig>();
 
 }

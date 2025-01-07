@@ -8,4 +8,9 @@ namespace Application.Dtos;
 public class TokenDto : IDto
 {
     public string Token { get; set; }
+
+    public TokenDto(string token)
+    {
+        Token = token;
+    }
 }

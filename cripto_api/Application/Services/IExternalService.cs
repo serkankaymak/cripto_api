@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Shared.EventBus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,6 @@ namespace Application.Services;
 /// <summary>
 /// dışarıya açılan servislerdir. uygulama içi  değil , client ın etkileşime geçtiği servisler...
 /// </summary>
-public interface IExternalService
+public interface IExternalService : IEventPublisher
 {
 }

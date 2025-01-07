@@ -11,6 +11,16 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 
 namespace Application.Services.InternalServices.CryptoHttpRequestService;
+
+
+public interface ICryptoHttpRequestService
+{
+    Task<List<CryptoData>> GetCryptoDataAsync(ApiEndpointConfig setting);
+
+}
+
+
+
 public class CryptoHttpRequestService(HttpClient httpClient, IMapper mapper, IEventDispatcher eventDispatcher) : ICryptoHttpRequestService
 {
     private readonly IMapper mapper = mapper;

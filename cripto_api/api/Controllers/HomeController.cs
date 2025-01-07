@@ -5,6 +5,7 @@ using Application.CQRS.Q;
 using Application.Dtos;
 using Application.Dtos.Hubs;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 

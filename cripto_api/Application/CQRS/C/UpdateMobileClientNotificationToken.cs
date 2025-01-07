@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using Application.Services.ExternalServices;
+using MediatR;
 using Shared.ApiResponse;
 using Shared.Validasiton;
 using System;
@@ -11,7 +12,7 @@ namespace Application.CQRS.C;
 
 public class UpdateMobileClientNotificationToken : ARequest<Unit>
 {
-    public string? Email { get; set; }
+    public required string Email { get; set; }
     public required string MobileClientToken { get; set; }
 
     public override ValidationResult Validate()
@@ -22,3 +23,20 @@ public class UpdateMobileClientNotificationToken : ARequest<Unit>
         return ValidationResult.Success();
     }
 }
+
+public class UpdateMobileClientNotificationTokenHandler : ARequestHandler<UpdateMobileClientNotificationToken, Unit>
+{
+    IIdentityService identityService;
+
+    public UpdateMobileClientNotificationTokenHandler(IIdentityService identityService)
+    {
+        this.identityService = identityService;
+    }
+
+    protected override async Task<Unit> HandleRequestAsync(UpdateMobileClientNotificationToken request)
+    {
+        await identityService.UpdateMobilePushNotificationTokenOfUser(request.Email, request.MobileClientToken);
+        return Unit.Value;
+    }
+}
+

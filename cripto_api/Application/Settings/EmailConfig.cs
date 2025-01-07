@@ -8,9 +8,9 @@ namespace Application.Settings;
 
 public class EmailConfig
 {
-    public string host { get; set; }
-    public int port { get; set; }
-    public bool enableSSL { get; set; }
-    public string userName { get; set; }
-    public string password { get; set; }
+    public required string host { get; set; }
+    public required int port { get; set; }
+    public required bool enableSSL { get; set; }
+    public required string userName { get; set; }
+    public required string password { get; set; }
 }

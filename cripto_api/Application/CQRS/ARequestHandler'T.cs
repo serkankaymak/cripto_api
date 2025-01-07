@@ -16,6 +16,10 @@ public abstract class ARequestHandler<TRequest, TResponse>
     //    ortak validasyon, loglama vb. yapmak istiyoruz.
     public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken)
     {
+        // Cancellation token kontrolü
+        // Eğer iptal isteği varsa OperationCanceledException fırlatarak işlemi durdurur.
+        cancellationToken.ThrowIfCancellationRequested();
+
         // a) Log request (İsterseniz loglama atlanabilir)
         await LogRequestAsync(request);
 
@@ -28,7 +32,7 @@ public abstract class ARequestHandler<TRequest, TResponse>
         }
 
         // c) Asıl iş mantığını (business logic) alt sınıfa bırakıyoruz
-        var response = await HandleRequestAsync(request, cancellationToken);
+        var response = await HandleRequestAsync(request);
 
         // d) Log response (isterseniz)
         await LogResponseAsync(response);
@@ -37,7 +41,7 @@ public abstract class ARequestHandler<TRequest, TResponse>
     }
 
     // 2) Alt sınıfın, asıl işi yapacağı soyut metod
-    protected abstract Task<TResponse> HandleRequestAsync(TRequest request, CancellationToken cancellationToken);
+    protected abstract Task<TResponse> HandleRequestAsync(TRequest request);
 
     // 3) Loglama metodları (opsiyonel, override etmek isterseniz virtual yapabilirsiniz)
     protected virtual Task LogRequestAsync(TRequest request)

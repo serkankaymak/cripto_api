@@ -1,6 +1,7 @@
 ﻿using api.Hubs;
 using Application.Dtos.Hubs;
 using Application.Services.InternalServices;
+using Application.Services.InternalServices.MobilePushNotificationService;
 using Infastructure.Persistance.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
@@ -36,7 +37,7 @@ public class TestController : ControllerBase
     [HttpGet("SendPushNotification")]
     public async Task<IActionResult> SendPushNotification(string clientToken)
     {
-        await mobilePushNotificationService.SendPushNotification(clientToken, "title", "body", new object { });
+        await mobilePushNotificationService.SendPushNotificationAsync(clientToken, "title", "body", new object { });
         return Ok();
     }
 

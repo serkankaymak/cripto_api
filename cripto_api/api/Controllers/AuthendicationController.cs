@@ -1,4 +1,5 @@
-﻿using Application.CQRS.Q;
+﻿using Application.CQRS.C;
+using Application.CQRS.Q;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,16 +9,13 @@ namespace api.Controllers;
 [ApiController]
 public class AuthendicationController : AController
 {
-
     public AuthendicationController(IMediator mediator) : base(mediator) { }
-
-
 
     /// <summary>
     /// Login...
     /// </summary>
     /// <returns>Status of the operation.</returns>
-    [HttpPost("login")]
+    [HttpPost("Login")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> Login([FromBody] GetAuthorizationTokenQuery loginRequest)
@@ -28,6 +26,33 @@ public class AuthendicationController : AController
 
 
 
+    /// <summary>
+    /// Register...
+    /// </summary>
+    /// <returns>Status of the operation.</returns>
+    [HttpPost("SignIn")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> SignIn([FromBody] RegisterCommand request)
+    {
+        var token = await _mediator.Send(request);
+        return Ok(token);
+    }
+
+
+
+    /// <summary>
+    /// Update Mobile Firabase Notification Token...
+    /// </summary>
+    /// <returns>Status of the operation.</returns>
+    [HttpPost("UpdateMobileNotificationToken")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> UpdateMobileNotificationToken([FromBody] UpdateMobileClientNotificationToken request)
+    {
+        var token = await _mediator.Send(request);
+        return Ok(token);
+    }
 
 
 }
