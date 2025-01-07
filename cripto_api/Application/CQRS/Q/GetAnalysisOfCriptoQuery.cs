@@ -2,6 +2,9 @@
 using Application.Mapping.abstractions;
 using Application.Services.ExternalServices;
 using Domain.Domains.ChyriptoDomain.CryptoTechnicalAnalyses;
+using Application.Mapping.abstractions;
+using Application.Services.ExternalServices;
+using Domain.Domains.ChyriptoDomain.CryptoTechnicalAnalyses;
 using MediatR;
 using Shared.Validasiton;
 using System;

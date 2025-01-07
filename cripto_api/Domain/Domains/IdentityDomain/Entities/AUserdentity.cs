@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 namespace Domain.Domains.IdentityDomain.Entities
 {
     public abstract class AUserIdentity : IdentityUser<int>
+    public abstract class AUserIdentity : IdentityUser<int>
     {
         public AUserIdentity()
         {
@@ -32,6 +33,7 @@ namespace Domain.Domains.IdentityDomain.Entities
 
         [Required]
         [StringLength(50)]
+        public required override string Email { get => base.Email!; set => base.Email = value; }
         public required override string Email { get => base.Email!; set => base.Email = value; }
         public override bool EmailConfirmed { get => base.EmailConfirmed; set => base.EmailConfirmed = value; }
 
