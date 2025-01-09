@@ -29,6 +29,7 @@ using Application.Services.InternalServices.MobilePushNotificationService;
 using Application.Mapping.abstractions;
 using Application.Events;
 using Application.Events.EventHandlers;
+using Application.Services.InternalServices.EmailService;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -49,7 +50,6 @@ if (serviceAccountKey != null)
 {
     // (1) Somut config nesnesini IOptionsWrapper şeklinde sar
     var optionsWrapper = new OptionsWrapper<FirebasePushNotificationConfig>(serviceAccountKey);
-
     // (2) DI'ye IOptions<FirebasePushNotificationConfig> olarak ekle
     builder.Services.AddSingleton<IOptions<FirebasePushNotificationConfig>>(optionsWrapper);
 }
@@ -59,14 +59,20 @@ if (serviceAccountKey != null)
 /*
  Kestrel Ayarları: API'nizin Kestrel sunucusunun tüm ağ arayüzlerinden gelen bağlantıları dinlemesini sağlayın. appsettings.json dosyanızda veya Program.cs dosyanızda şu şekilde yapılandırabilirsiniz:
  */
-builder.WebHost.ConfigureKestrel(options =>
+
+if (ApplicationManager.isDeveloping)
 {
-    options.ListenAnyIP(5000); // HTTP için 5000 portunu dinle
-    options.ListenAnyIP(5001, listenOptions => // HTTPS için 5001 portunu dinle
+    builder.WebHost.ConfigureKestrel(options =>
     {
-        listenOptions.UseHttps();
+        options.ListenAnyIP(5000); // HTTP için 5000 portunu dinle
+        options.ListenAnyIP(5001, listenOptions => // HTTPS için 5001 portunu dinle
+        {
+            listenOptions.UseHttps();
+        });
     });
-});
+
+}
+
 
 
 // Add services to the container.
@@ -77,18 +83,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.configureSwagger();
 // Database Context
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-{
-    string pth = AppContext.BaseDirectory;
-    string dbPath = Path.Combine(pth, "../../../Crypto.db");
-    options.UseSqlite($"Data Source={dbPath}");
-});
+builder.configureDbContext();
 
 // Authorization Configuration
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("AdminOnly", policy => policy.RequireClaim("isAdmin", "true"));
-});
+builder.Services.AddAuthorization(options => { options.AddPolicy("AdminOnly", policy => policy.RequireClaim("isAdmin", "true")); });
 
 // CORS Configuration
 builder.configureCorsSettings();
@@ -115,6 +113,7 @@ builder.Services.AddHttpClient("serkan", config =>
     config.Timeout = TimeSpan.FromSeconds(20);
 });
 
+
 // 1) NotificationService'inizi event handler olarak kullanacağınızı varsayarak
 //    öncelikle bu sınıfı da DI konteyner'a ekleyin.
 //    (Hayati bir state tutmuyorsa Transient veya Scoped olabilir)
@@ -124,6 +123,7 @@ builder.Services.AddHttpClient("serkan", config =>
 //    var emailSender = sp.GetRequiredService<IEmailService>();
 //    return new NotificationService(emailSender);
 //});
+builder.Services.AddTransient<IEmailService, EmailService>();
 builder.Services.AddTransient<NotificationService>();
 builder.Services.AddTransient<ICryptoDataService, CryptoDataService>();
 
@@ -138,7 +138,7 @@ builder.Services.AddSingleton<IEventDispatcher>(sp =>
     //dispatcher.Subscribe<TickerFetchFailedEvent, NotificationService>();
     //dispatcher.Subscribe<TickersFetchedEvent, NotificationService>();
 
-    dispatcher.Subscribe<TickersFetchedEvent, ApplicationEventHandlerImp>();
+    dispatcher.Subscribe<TickersFetchedEvent, TickersFetchedEventHandler>();
     dispatcher.Subscribe<TickerFetchFailedEvent, ApplicationEventHandlerImp>();
     dispatcher.Subscribe<UserMobileNotificationTokenUpdatedEvent, ApplicationEventHandlerImp>();
 
@@ -196,10 +196,15 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 // Zamanlanmış işi ekleyin (örnek: her saat başı)
 if (ApplicationManager.startHangfireHob)
 {
+    string cronExpression = ApplicationManager.isDeveloping
+    ? Cron.Minutely()
+    : Cron.Hourly();
+
     RecurringJob.AddOrUpdate<FetchCriptosPeriodiclyJob>(
         "ticker-job",
         job => job.ExecuteAsync(),
-        Cron.Minutely);
+       cronExpression
+        );
 }
 
 
@@ -238,5 +243,5 @@ app.Run();
 
 
 
-
-//http://192.168.1.125:5000/index.html
+// Desktop -> http://192.168.1.196:5000
+// Laptop -> http://192.168.1.125:5000/index.html

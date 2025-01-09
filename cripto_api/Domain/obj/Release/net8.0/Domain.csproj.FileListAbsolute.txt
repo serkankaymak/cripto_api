@@ -1,0 +1,16 @@
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\bin\Release\net8.0\Domain.deps.json
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\bin\Release\net8.0\Domain.dll
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\bin\Release\net8.0\Domain.pdb
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\bin\Release\net8.0\Shared.dll
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\bin\Release\net8.0\Shared.pdb
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\obj\Release\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\obj\Release\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\obj\Release\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\obj\Release\net8.0\Domain.AssemblyInfo.cs
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\obj\Release\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\obj\Release\net8.0\Domain.sourcelink.json
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\obj\Release\net8.0\Domain.csproj.Up2Date
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\obj\Release\net8.0\Domain.dll
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\obj\Release\net8.0\refint\Domain.dll
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\obj\Release\net8.0\Domain.pdb
+C:\Users\onur\Desktop\cripto\cripto_api\cripto_api\Domain\obj\Release\net8.0\ref\Domain.dll

@@ -21,12 +21,15 @@ namespace Infastructure.Infastructue.Services;
 public class NotificationService : INotificationService, IEmailService
 {
     IEmailService _emailService;
-    IMobilePushNotificationService _mobilePushNotificationService;
+    IAndroidPushNotificationService _android;
+    IIosPushNotificationService _ios;
 
-    public NotificationService(EmailService emailService, IMobilePushNotificationService mobilePushNotificationService)
+
+    public NotificationService(EmailService emailService, IAndroidPushNotificationService mobilePushNotificationService, IIosPushNotificationService ios)
     {
         _emailService = emailService;
-        _mobilePushNotificationService = mobilePushNotificationService;
+        _android = mobilePushNotificationService;
+        _ios = ios;
     }
 
     public Task sendEmailAsync(string emailAdress, string subject, string htmlMessage, Action? onSuccess = null)
@@ -34,14 +37,17 @@ public class NotificationService : INotificationService, IEmailService
         return _emailService.sendEmailAsync(emailAdress, subject, htmlMessage, onSuccess);
     }
 
-    public Task SendPushNotification(string deviceToken, string title, string body, object? data = null)
+    public Task SendPushNotification(string deviceToken, MobileClientType clientType, string title, string body, object? data = null)
     {
-        return _mobilePushNotificationService.SendPushNotificationAsync(deviceToken, title, body, data);
+        if (clientType == MobileClientType.Android) return _android.SendPushNotificationAsync(deviceToken, title, body, data);
+        return _ios.SendPushNotificationAsync(deviceToken, title, body, data);
     }
 
     public Task SendPushNotification(PushNotifcationTopics topic, string title, string body, object? data = null)
     {
-        return _mobilePushNotificationService.SendPushNotificationAsync(topic, title, body, data);
+        _ = _android.SendPushNotificationAsync(topic, title, body, data);
+        _ = _ios.SendPushNotificationAsync(topic, title, body, data);
+        return Task.CompletedTask;
     }
 
 

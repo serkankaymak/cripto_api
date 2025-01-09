@@ -44,7 +44,7 @@ public class CryptoDataService : ICryptoDataService
 
                 foreach (var item in dataList)
                 {
-
+                    if (!int.TryParse(item.id, out int _id)) { item.id = "0"; }
                     var ticker = _mapper.Map<CryptoData, Ticker>(item);
                     var crypto = _context.Cryptos.FirstOrDefault(x => x.Name.Trim().Equals(item.name.Trim()));
 

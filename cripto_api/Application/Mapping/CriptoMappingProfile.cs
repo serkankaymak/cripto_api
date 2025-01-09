@@ -16,6 +16,7 @@ namespace Application.Mapping
 
 
             CreateMap<CryptoData, Ticker>()
+                .ForMember(x => x.Id, o => o.MapFrom(y => 0))
                 .ForMember(x => x.Price, o => o.MapFrom(y => y.current_price))
                 .ForMember(x => x.TimeStamp, o => o.MapFrom(y => new DateTimeOffset(y.last_updated).ToUnixTimeSeconds()))
                  .ForMember(x => x.High24H, o => o.MapFrom(y => y.high_24h))
@@ -23,6 +24,7 @@ namespace Application.Mapping
                 .ReverseMap();
 
             CreateMap<CryptoData, Crypto>()
+                    .ForMember(x => x.Id, o => o.MapFrom(y => 0))
                 .ForMember(x => x.atl, o => o.MapFrom(y => y.atl))
                 .ForMember(x => x.Price, o => o.MapFrom(x => x.current_price))
                 .ForMember(x => x.Image, o => o.MapFrom(x => x.image))

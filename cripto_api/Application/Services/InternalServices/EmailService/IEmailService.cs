@@ -29,6 +29,7 @@ public class EmailService : IEmailService
         emailSender.password = emailConfiguration.Value.password;
         emailSender.enableSSL = emailConfiguration.Value.enableSSL;
         emailSender.userName = emailConfiguration.Value.userName;
+        emailSender.fromEmail = emailConfiguration.Value.fromEmail;
     }
 
     public async Task sendEmailAsync(string emailAdress, string subject, string htmlMessage, Action? onSuccess = null)

@@ -49,7 +49,7 @@ public class InMemoryEventBus : IEventDispatcher
                 if (handler != null)
                 {
                     // Handle metodunu çağırın ve await edin
-                    await handler.Handle(@event);
+                    await handler.HandleAsync(@event);
                 }
             }
         }

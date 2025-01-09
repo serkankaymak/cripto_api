@@ -39,6 +39,7 @@ public class CriptoRepository : AGenericRepository<Crypto>, ICriptoRepository
     }
     public async Task<IEnumerable<Crypto>> GetCriptosWithTickers(DateTime dateTime)
     {
+       
         return await WhereAsync(
                  includes: new Func<IQueryable<Crypto>, IQueryable<Crypto>>[]
                  {query => query.Include(x => x.Tickers.Where(t => t.Created >= dateTime)).Select(x=>_select(x))});
@@ -46,6 +47,7 @@ public class CriptoRepository : AGenericRepository<Crypto>, ICriptoRepository
 
     public async Task<Crypto> GetCryptoWithTickers(int criptoId, DateTime dateTime)
     {
+      
         var entity = await _dbSet.Include(x => x.Tickers.Where(t => t.Created >= dateTime)).FirstOrDefaultAsync(x => x.Id == criptoId);
         if (entity == null) throw ExceptionFactory.NotFound("Bu id de bir cripto bulunamadı");
         return _select(entity);

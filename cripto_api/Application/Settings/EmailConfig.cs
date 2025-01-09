@@ -13,4 +13,5 @@ public class EmailConfig
     public required bool enableSSL { get; set; }
     public required string userName { get; set; }
     public required string password { get; set; }
+    public required string fromEmail { get; set; }
 }

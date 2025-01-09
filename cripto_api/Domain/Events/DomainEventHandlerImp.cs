@@ -4,7 +4,7 @@ namespace Domain.Events;
 
 public class DomainEventHandlerImp : IEventHandler<IDomainEvent>
 {
-    public Task Handle(IDomainEvent @event)
+    public Task HandleAsync(IDomainEvent @event)
     {
         throw new NotImplementedException();
     }

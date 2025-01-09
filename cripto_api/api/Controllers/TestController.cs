@@ -1,6 +1,7 @@
 ﻿using api.Hubs;
 using Application.Dtos.Hubs;
 using Application.Services.InternalServices;
+using Application.Services.InternalServices.EmailService;
 using Application.Services.InternalServices.MobilePushNotificationService;
 using Infastructure.Persistance.Repositories;
 using Microsoft.AspNetCore.Mvc;
@@ -11,6 +12,7 @@ using Shared.ApiResponse;
 [ApiController]
 public class TestController : ControllerBase
 {
+    IEmailService emailService { get; set; }
     IHubContext<CriptoAnalysesHub, ICriptoAnalysesHub> hub;
     private readonly IMobilePushNotificationService mobilePushNotificationService;
     private readonly ICryptoDataService cryptoDataService;
@@ -18,11 +20,13 @@ public class TestController : ControllerBase
     public TestController(
         ICryptoDataService cryptoDataService,
         IMobilePushNotificationService mobilePushNotificationService,
-        IHubContext<CriptoAnalysesHub, ICriptoAnalysesHub> hub)
+        IHubContext<CriptoAnalysesHub, ICriptoAnalysesHub> hub,
+        IEmailService emailService)
     {
         this.cryptoDataService = cryptoDataService;
         this.mobilePushNotificationService = mobilePushNotificationService;
         this.hub = hub;
+        this.emailService = emailService;
     }
 
 
@@ -57,6 +61,13 @@ public class TestController : ControllerBase
     {
         await hub.Clients.All.SendMessage(message);
         return Ok(message);
+    }
+
+    [HttpGet("SendEmail")]
+    public async Task<IActionResult> SendEmail()
+    {
+        await emailService.sendEmailAsync("kaymak__serkan35@hotmail.com", "subject", "deneme");
+        return Ok("email gönderimi başarılı");
     }
 
 

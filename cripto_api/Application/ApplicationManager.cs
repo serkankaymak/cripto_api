@@ -9,8 +9,7 @@ namespace Application;
 public class ApplicationManager
 {
     public static bool removeDatabaseOnProgramRestart { get; set; } = true;
-    public static bool startHangfireHob { get; set; } = false;
-    public static bool isDeveloping { get; set; } = true;
-    public static bool useMySql = false;
-    public static bool configureDbPathFromApi = true;
+    public static bool startHangfireHob { get; set; } = true;
+    public static bool isDeveloping { get; set; } = false;
+
 }
