@@ -17,17 +17,12 @@ namespace Domain.Domains.IdentityDomain.Entities
             Roles = new HashSet<RoleIdentity>();
         }
 
-        [NotMapped]
+     
         public override string? NormalizedEmail { get => base.NormalizedEmail; set => base.NormalizedEmail = value; }
-        [NotMapped]
         public override string? NormalizedUserName { get => base.NormalizedUserName; set => base.NormalizedUserName = value; }
-        [NotMapped]
         public virtual string? EmailOptional { get; set; }
-        [NotMapped]
         public override string? UserName { get => base.Email; set => base.UserName = base.Email; }
-        [NotMapped]
         public override bool TwoFactorEnabled { get => base.TwoFactorEnabled; set => base.TwoFactorEnabled = value; }
-
 
 
         [Required]

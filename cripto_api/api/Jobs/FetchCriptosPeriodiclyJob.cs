@@ -37,6 +37,8 @@ public class FetchCriptosPeriodiclyJob : IPeriodicJob, IEventPublisher
             await _cryptoDataService.FetchAndStoreCryptoDataAsync();
             await _eventDispatcher.Publish(this, new TickersFetchedEvent());
             _logger.LogInformation("CryptoDataJob başarıyla tamamlandı.");
+
+
         }
         catch (Exception ex)
         {

@@ -22,5 +22,15 @@ public static class DatabaseConfigurationExtension
                 options.UseSqlServer(connectionString);
             }
         });
+
+
+        if (ApplicationManager.enableSensitiveDataLogging)
+        {
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            options.EnableSensitiveDataLogging());  // For debugging only
+        }
+
+
+
     }
 }

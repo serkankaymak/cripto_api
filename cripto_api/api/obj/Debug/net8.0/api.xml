@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>api</name>
+    </assembly>
+    <members>
+        <member name="M:api.Controllers.AuthendicationController.Login(Application.CQRS.Q.GetAuthorizationTokenQuery)">
+            <summary>
+            Login...
+            </summary>
+            <returns>Status of the operation.</returns>
+        </member>
+        <member name="M:api.Controllers.AuthendicationController.SignIn(Application.CQRS.C.RegisterCommand)">
+            <summary>
+            Register...
+            </summary>
+            <returns>Status of the operation.</returns>
+        </member>
+        <member name="M:api.Controllers.AuthendicationController.UpdateMobileNotificationToken(Application.CQRS.C.UpdateMobileClientNotificationToken)">
+            <summary>
+            Update Mobile Firabase Notification Token...
+            </summary>
+            <returns>Status of the operation.</returns>
+        </member>
+        <member name="M:api.Controllers.HomeController.GetCriptos(Application.CQRS.Q.GetCryptosQuery)">
+            <summary>
+            Belirtilen tarihe göre kripto para listesini getirir.
+            Eğer tarih belirtilmezse, varsayılan olarak bir yıl öncesi kullanılır.
+            </summary>
+            <param name="query">Kripto sorgu parametreleri</param>
+            <returns>Kripto para verilerinin listesi</returns>
+        </member>
+        <member name="M:api.Controllers.HomeController.GetCriptoAnalyses(Application.CQRS.GetAnalysisOfCriptoQuery)">
+            <summary>
+            Cripto nun indicatör analizlerini döndürür.
+            </summary>
+            <param name="query">Kripto id </param>
+            <returns>Kripto para verisinin al sat analizleri</returns>
+        </member>
+    </members>
+</doc>

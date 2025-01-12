@@ -1,5 +1,6 @@
 ﻿using api.Hubs;
 using Application.Dtos.Hubs;
+using Application.Services.ExternalServices;
 using Application.Services.InternalServices;
 using Application.Services.InternalServices.EmailService;
 using Application.Services.InternalServices.MobilePushNotificationService;
@@ -12,22 +13,37 @@ using Shared.ApiResponse;
 [ApiController]
 public class TestController : ControllerBase
 {
+    ICriptoService criptoService { get; set; }
     IEmailService emailService { get; set; }
     IHubContext<CriptoAnalysesHub, ICriptoAnalysesHub> hub;
-    private readonly IMobilePushNotificationService mobilePushNotificationService;
+    private readonly IAndroidPushNotificationService androidPushNotificationService;
     private readonly ICryptoDataService cryptoDataService;
 
     public TestController(
         ICryptoDataService cryptoDataService,
-        IMobilePushNotificationService mobilePushNotificationService,
+        IAndroidPushNotificationService mobilePushNotificationService,
         IHubContext<CriptoAnalysesHub, ICriptoAnalysesHub> hub,
-        IEmailService emailService)
+        IEmailService emailService,
+        ICriptoService criptoService)
     {
         this.cryptoDataService = cryptoDataService;
-        this.mobilePushNotificationService = mobilePushNotificationService;
+        this.androidPushNotificationService = mobilePushNotificationService;
         this.hub = hub;
         this.emailService = emailService;
+        this.criptoService = criptoService;
     }
+
+
+
+    [HttpGet("Deneme")]
+    public async Task<IActionResult> Deneme(int id)
+    {
+        await criptoService.GetCryptoWithTickers(id);
+        return Ok();
+    }
+
+
+
 
 
     [HttpGet("FetchTickers")]
@@ -41,7 +57,7 @@ public class TestController : ControllerBase
     [HttpGet("SendPushNotification")]
     public async Task<IActionResult> SendPushNotification(string clientToken)
     {
-        await mobilePushNotificationService.SendPushNotificationAsync(clientToken, "title", "body", new object { });
+        await androidPushNotificationService.SendPushNotificationAsync(clientToken, "title", "body", new object { });
         return Ok();
     }
 

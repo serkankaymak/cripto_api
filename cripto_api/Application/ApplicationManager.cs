@@ -8,8 +8,9 @@ namespace Application;
 
 public class ApplicationManager
 {
+    public static bool enableSensitiveDataLogging { get; set; } = true;
     public static bool removeDatabaseOnProgramRestart { get; set; } = true;
-    public static bool startHangfireHob { get; set; } = true;
-    public static bool isDeveloping { get; set; } = false;
+    public static bool startHangfireHob { get; set; } = false;
+    public static bool isDeveloping { get; set; } = true;
 
 }

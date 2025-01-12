@@ -18,7 +18,7 @@ public interface IIdentityService : IExternalService
     /// <param name="token"></param>
     /// <returns>void</returns>
 
-    Task<string> RegisterAsync(string email, string password);
+    Task<string> RegisterAsync(string email, string password, string? userName = null);
     /// <summary>
     /// mobile notification token güncelleme...
     /// </summary>

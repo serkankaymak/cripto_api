@@ -1,4 +1,5 @@
 ﻿using Application.Repositories;
+using Google;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -23,5 +24,8 @@ public class UnitOfWork : IUnitOfWork
     public async Task<int> CommitAsync() => await _context.SaveChangesAsync();
     public void Dispose() => _context.Dispose();
     public ICriptoRepository criptos => _criptos;
+
+
+    public ApplicationDbContext getContext() => _context;
 
 }

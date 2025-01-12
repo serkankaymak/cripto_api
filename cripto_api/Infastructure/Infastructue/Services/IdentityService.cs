@@ -89,7 +89,7 @@ namespace Infastructure.Infastructue.Services
         /// <returns>JWT token string.</returns>
         /// <exception cref="ArgumentException">Geçersiz parametreler.</exception>
         /// <exception cref="InvalidOperationException">Kullanıcı oluşturulamadı.</exception>
-        public async Task<string> RegisterAsync(string email, string password)
+        public async Task<string> RegisterAsync(string email, string password, string? name = null)
         {
             // 1. Parametrelerin doğrulanması
             if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
@@ -104,10 +104,11 @@ namespace Infastructure.Infastructue.Services
             // 3. Yeni kullanıcı nesnesinin oluşturulması
             var newUser = new UserIdentity
             {
-                UserName = email, // Genellikle kullanıcı adı olarak e-posta kullanılır
+                Name = name != null ? name : email, // Genellikle kullanıcı adı olarak e-posta kullanılır
                 Email = email,
                 IsActive = true, // Varsayılan olarak aktif
-                // Diğer gerekli alanları burada ayarlayın
+                                 // Diğer gerekli alanları burada ayarlayın
+
             };
 
             // 4. Kullanıcının oluşturulması
@@ -119,7 +120,7 @@ namespace Infastructure.Infastructue.Services
                 throw new InvalidOperationException($"Kullanıcı oluşturulamadı: {errors}");
             }
 
-         
+
 
             // 6. İlgili olayları tetiklemek (Opsiyonel)
             var registrationEvent = new UserCreatedEvent(newUser.Id, newUser.Email);

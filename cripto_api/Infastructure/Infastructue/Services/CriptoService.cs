@@ -3,6 +3,8 @@ using Application.Mapping.abstractions;
 using Application.Repositories;
 using Application.Services.ExternalServices;
 using Domain.Domains.ChyriptoDomain.CryptoTechnicalAnalyses;
+using Infastructure.Persistance.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +34,27 @@ public class CriptoService : ICriptoService
 
     public async Task<Crypto> GetCryptoWithTickers(int cryptoId, DateTime? dateTime = null)
     {
+
+
+
+        var w = (UnitOfWork)_unitOfWork;
+        var c = w.getContext();
+
+
+        c.SaveChanges();
+
+        c.Cryptos.Add(new Crypto("?")
+        {
+            ath=0,Image="",Name= new Random(10000).Next().ToString(),Price=0
+        });
+        var entities = c.Cryptos.Where(x => x.Id > 0).ToList();
+
+    
+
+        c.SaveChanges();
+
+
+
         if (dateTime == null) dateTime = DateTime.UtcNow.AddYears(-1);
         return await _unitOfWork.criptos.GetCryptoWithTickers(cryptoId, dateTime.Value);
     }

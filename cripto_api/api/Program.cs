@@ -41,7 +41,7 @@ builder.Services.Configure<FirebasePushNotificationConfig>(
 
 
 // JSON dosyasını oku
-string jsonFilePath = Path.Combine(Directory.GetCurrentDirectory(), "firebasePushNotificationConfig.json");
+string jsonFilePath = Path.Combine(Directory.GetCurrentDirectory(), "google-services.json");
 string jsonString = File.ReadAllText(jsonFilePath);
 
 var serviceAccountKey = JsonConvert.DeserializeObject<FirebasePushNotificationConfig>(jsonString);
@@ -182,7 +182,8 @@ builder.Services.AddIdentity<UserIdentity, RoleIdentity>()
 builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 builder.Services.AddSignalR();
 
-builder.Services.AddScoped<IMobilePushNotificationService, AndroidPushNotificationService>();
+builder.Services.AddScoped<IAndroidPushNotificationService, AndroidPushNotificationService>();
+builder.Services.AddScoped<IIosPushNotificationService, IosMobilePushNotificationService>();
 builder.Logging.AddFilter("Microsoft.EntityFrameworkCore.Database.Command", LogLevel.Warning);
 
 var app = builder.Build();
@@ -243,5 +244,5 @@ app.Run();
 
 
 
-// Desktop -> http://192.168.1.196:5000
+// Desktop -> http://192.168.1.196:5000/index.html
 // Laptop -> http://192.168.1.125:5000/index.html

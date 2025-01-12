@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {}
+    "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {
+    "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\onur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\obj\\",
+        "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\serkan.kaymak\\.nuget\\packages\\",
+        "outputPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\serkan.kaymak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

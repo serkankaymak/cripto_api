@@ -25,8 +25,15 @@ public class RegisterCommand : ARequest<TokenDto>
 class RegisterCommandHandler : ARequestHandler<RegisterCommand, TokenDto>
 {
     IIdentityService identityService;
+
+    public RegisterCommandHandler(IIdentityService identityService)
+    {
+        this.identityService = identityService;
+    }
+
     protected override async Task<TokenDto> HandleRequestAsync(RegisterCommand request)
     {
+        
         string token = await identityService.RegisterAsync(request.Email, request.Password);
         return new TokenDto(token);
     }

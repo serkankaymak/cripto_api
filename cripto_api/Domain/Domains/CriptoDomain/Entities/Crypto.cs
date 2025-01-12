@@ -8,6 +8,10 @@ public class Crypto : IEntity
 {
     public virtual ICollection<Ticker> Tickers { get; set; }
     public Crypto() { Tickers = new HashSet<Ticker>(); }
+    public Crypto(string symbol)
+    {
+        Symbol = symbol;
+    }
 
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -15,7 +19,9 @@ public class Crypto : IEntity
 
     [Required]
     [MaxLength(10)]
-    public required string Symbol { get; set; } // Örneğin, "BTC", "ETH"
+    public  string Symbol { get; set; } // Örneğin, "BTC", "ETH"
+
+
 
     [MaxLength(100)]
     public string Name { get; set; } // Örneğin, "Bitcoin", "Ethereum"
@@ -85,6 +91,8 @@ public class Crypto : IEntity
     /// Maksimum arz: Kripto para biriminin üretilebilecek maksimum coin sayısı (nullable).
     /// </summary>
     public decimal? max_supply { get; set; }
+
+
 
     #endregion
 

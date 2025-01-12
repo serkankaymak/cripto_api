@@ -1,6 +1,7 @@
 ﻿using Domain.Domains.IdentityDomain.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ZL.DDD.Base;
 
 namespace Infastructure;
 
@@ -38,16 +39,19 @@ public class ApplicationDbContext : IdentityDbContext<UserIdentity, RoleIdentity
             .OnDelete(DeleteBehavior.Cascade);
 
         modelBuilder.Entity<UserIdentity>()
-        .Ignore(u => u.NormalizedEmail)
-        .Ignore(u => u.NormalizedUserName)
+        //.Ignore(u => u.NormalizedEmail)
+        //.Ignore(u => u.NormalizedUserName)
         .Ignore(u => u.EmailOptional)
-        .Ignore(x => x.UserName)
-        .Ignore(x => x.TwoFactorEnabled)
-        .Ignore(x => x.LastActiveDate)
-        .Ignore(x => x.LockoutEnabled)
-        .Ignore(x => x.LockoutEnd)
-        .Ignore(x => x.AccessFailedCount)
-        .Ignore(x => x.EmailConfirmed)
-        .Ignore(x => x.PhoneNumberConfirmed);
+        .Ignore(u => u.UserName)
+        //.Property(u => u.UserName).IsRequired(false)
+        //.Ignore(x => x.TwoFactorEnabled)
+        //.Ignore(x => x.LastActiveDate)
+        //.Ignore(x => x.LockoutEnabled)
+        //.Ignore(x => x.LockoutEnd)
+        //.Ignore(x => x.AccessFailedCount)
+        //.Ignore(x => x.EmailConfirmed)
+        //.Ignore(x => x.PhoneNumberConfirmed)
+
+        ;
     }
 }
