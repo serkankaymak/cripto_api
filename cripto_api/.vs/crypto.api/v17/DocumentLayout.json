@@ -1,25 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\",
+  "WorkspaceRootPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|d:\\softwareengineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\infastructure\\infastructue\\services\\criptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\api\\controllers\\authendicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\controllers\\authendicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\application\\cqrs\\q\\getanalysisofcriptoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\cqrs\\q\\getanalysisofcriptoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\infastructure\\infastructue\\services\\criptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25DDD35F-E9E2-4CCC-ADF6-8972829C92A5}|Infastructure\\Infastructure.csproj|solutionrelative:infastructure\\infastructue\\services\\criptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\services\\externalservices\\icriptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\application\\services\\externalservices\\icriptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\services\\externalservices\\icriptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\application\\applicationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\application\\cqrs\\q\\getanalysisofcriptosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\cqrs\\q\\getanalysisofcriptosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\api\\controllers\\acontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\controllers\\acontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8EF6AC-65EC-4806-BD5E-B004971D5462}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|c:\\users\\onur\\desktop\\cripto\\cripto_api\\cripto_api\\application\\applicationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10C01EB3-1843-4FD9-9CB5-2942F7CF2A83}|Application\\Application.csproj|solutionrelative:application\\applicationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,44 +50,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 522,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAnalysisOfCriptosQuery.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\GetAnalysisOfCriptosQuery.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Q\\GetAnalysisOfCriptosQuery.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\GetAnalysisOfCriptosQuery.cs",
+              "RelativeToolTip": "Application\\CQRS\\Q\\GetAnalysisOfCriptosQuery.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:25:32.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAnalysisOfCriptoQuery.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\GetAnalysisOfCriptoQuery.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Q\\GetAnalysisOfCriptoQuery.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\CQRS\\Q\\GetAnalysisOfCriptoQuery.cs",
+              "RelativeToolTip": "Application\\CQRS\\Q\\GetAnalysisOfCriptoQuery.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:24:59.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "api\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "api\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:22:19.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthendicationController.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\AuthendicationController.cs",
+              "RelativeDocumentMoniker": "api\\Controllers\\AuthendicationController.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\AuthendicationController.cs",
+              "RelativeToolTip": "api\\Controllers\\AuthendicationController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:22:16.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AController.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\AController.cs",
+              "RelativeDocumentMoniker": "api\\Controllers\\AController.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\AController.cs",
+              "RelativeToolTip": "api\\Controllers\\AController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:22:13.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\Program.cs",
               "RelativeDocumentMoniker": "api\\Program.cs",
-              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Program.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\Program.cs",
               "RelativeToolTip": "api\\Program.cs",
-              "ViewState": "AQIAAN4AAAAAAAAAAAAAAPcAAAAvAAAA",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAAL0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T16:32:41.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CriptoService.cs",
-              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructue\\Services\\CriptoService.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructue\\Services\\CriptoService.cs",
               "RelativeDocumentMoniker": "Infastructure\\Infastructue\\Services\\CriptoService.cs",
-              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructue\\Services\\CriptoService.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructue\\Services\\CriptoService.cs",
               "RelativeToolTip": "Infastructure\\Infastructue\\Services\\CriptoService.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAADwvzMAAAAEAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAhwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T21:21:56.676Z"
+              "WhenOpened": "2025-01-11T21:21:56.676Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ApplicationManager.cs",
-              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\ApplicationManager.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\ApplicationManager.cs",
               "RelativeDocumentMoniker": "Application\\ApplicationManager.cs",
-              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\ApplicationManager.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\ApplicationManager.cs",
               "RelativeToolTip": "Application\\ApplicationManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,27 +157,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "TestController.cs",
-              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\TestController.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\TestController.cs",
               "RelativeDocumentMoniker": "api\\Controllers\\TestController.cs",
-              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\Controllers\\TestController.cs",
               "RelativeToolTip": "api\\Controllers\\TestController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAArwCgAAAAIAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAArwDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T21:20:21.919Z"
+              "WhenOpened": "2025-01-11T21:20:21.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ICriptoService.cs",
-              "DocumentMoniker": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\ExternalServices\\ICriptoService.cs",
+              "DocumentMoniker": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\Services\\ExternalServices\\ICriptoService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ExternalServices\\ICriptoService.cs",
-              "ToolTip": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Services\\ExternalServices\\ICriptoService.cs",
+              "ToolTip": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\Services\\ExternalServices\\ICriptoService.cs",
               "RelativeToolTip": "Application\\Services\\ExternalServices\\ICriptoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T21:20:07.722Z"
+              "WhenOpened": "2025-01-11T21:20:07.722Z",
+              "EditorCaption": ""
             }
           ]
         }

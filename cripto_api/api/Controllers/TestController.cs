@@ -35,15 +35,6 @@ public class TestController : ControllerBase
 
 
 
-    [HttpGet("Deneme")]
-    public async Task<IActionResult> Deneme(int id)
-    {
-        await criptoService.GetCryptoWithTickers(id);
-        return Ok();
-    }
-
-
-
 
 
     [HttpGet("FetchTickers")]
@@ -67,7 +58,6 @@ public class TestController : ControllerBase
         if (false) throw ExceptionFactory.InternalServerError();
         if (false) throw ExceptionFactory.BadRequest();
         if (true) throw ExceptionFactory.BusinessRuleViolation();
-        return Ok();
     }
 
 

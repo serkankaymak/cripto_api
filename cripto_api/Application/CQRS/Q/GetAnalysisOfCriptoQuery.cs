@@ -2,16 +2,7 @@
 using Application.Mapping.abstractions;
 using Application.Services.ExternalServices;
 using Domain.Domains.ChyriptoDomain.CryptoTechnicalAnalyses;
-using Application.Mapping.abstractions;
-using Application.Services.ExternalServices;
-using Domain.Domains.ChyriptoDomain.CryptoTechnicalAnalyses;
-using MediatR;
 using Shared.Validasiton;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.CQRS;
 public class GetAnalysisOfCriptoQuery : ARequest<CryproAnalysesDto>
@@ -45,15 +36,8 @@ public sealed class GetAnalysisOfCriptoQueryHandler : ARequestHandler<GetAnalysi
 
     protected override async Task<CryproAnalysesDto> HandleRequestAsync(GetAnalysisOfCriptoQuery request)
     {
-        var cripto = await _dataService.GetCryptoWithTickers(request.CriptoId, request.BeginAnalysesFromThisDate ?? DateTime.UtcNow.AddYears(-1));
-        var rsi = cryptoTechnicalAnalyses.CalculateRsiWithDates(cripto.Tickers.ToList());
-        var macd = cryptoTechnicalAnalyses.CalculateMacdWithDates(cripto.Tickers.ToList());
-        var obv = cryptoTechnicalAnalyses.CalculateObvWithDates(cripto.Tickers.ToList());
-        var bollingerBands = cryptoTechnicalAnalyses.CalculateBollingerBandsWithDates(cripto.Tickers.ToList());
+        return await _dataService.GetCryptoTechnicalAnalyses(request.CriptoId, request.BeginAnalysesFromThisDate);
 
-        var criptoDto = _mapper.Map<Crypto, CryptoDto>(cripto);
-        criptoDto.tickers.Clear();
-        return new CryproAnalysesDto(criptoDto, bollingerBands, rsi, macd, obv);
 
     }
 }

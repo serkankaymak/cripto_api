@@ -37,5 +37,12 @@
             <param name="query">Kripto id </param>
             <returns>Kripto para verisinin al sat analizleri</returns>
         </member>
+        <member name="M:api.Controllers.HomeController.GetCriptosAnalyses(Application.CQRS.GetAnalysisOfCriptosQuery)">
+            <summary>
+            Cripto nun indicatör analizlerini döndürür.
+            </summary>
+            <param name="query">Kripto id </param>
+            <returns>Kripto para verisinin al sat analizleri</returns>
+        </member>
     </members>
 </doc>

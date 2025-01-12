@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\api.csproj": {}
+    "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\api.csproj": {}
   },
   "projects": {
-    "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\api.csproj": {
+    "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\api.csproj",
-        "packagesPath": "C:\\Users\\serkan.kaymak\\.nuget\\packages\\",
-        "outputPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\api\\obj\\",
+        "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\onur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\serkan.kaymak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,18 +22,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj": {
-                "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj"
+              "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj"
               },
-              "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructure.csproj": {
-                "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructure.csproj"
+              "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructure.csproj": {
+                "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructure.csproj"
               }
             }
           }
@@ -109,21 +104,17 @@
         }
       }
     },
-    "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj": {
+    "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\serkan.kaymak\\.nuget\\packages\\",
-        "outputPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\obj\\",
+        "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\onur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\serkan.kaymak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,18 +122,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj"
+              "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj"
               },
-              "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj"
+              "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj"
               }
             }
           }
@@ -241,21 +231,17 @@
         }
       }
     },
-    "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj": {
+    "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\serkan.kaymak\\.nuget\\packages\\",
-        "outputPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\onur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\serkan.kaymak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -263,15 +249,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj"
+              "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj"
               }
             }
           }
@@ -332,21 +317,17 @@
         }
       }
     },
-    "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructure.csproj": {
+    "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructure.csproj",
+        "projectUniqueName": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructure.csproj",
         "projectName": "Infastructure",
-        "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructure.csproj",
-        "packagesPath": "C:\\Users\\serkan.kaymak\\.nuget\\packages\\",
-        "outputPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Infastructure\\obj\\",
+        "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Infastructure\\Infastructure.csproj",
+        "packagesPath": "C:\\Users\\onur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Infastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\serkan.kaymak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -354,21 +335,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj": {
-                "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj"
+              "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Application\\Application.csproj"
               },
-              "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj"
+              "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Domain\\Domain.csproj"
               },
-              "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj"
+              "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj"
               }
             }
           }
@@ -407,21 +387,17 @@
         }
       }
     },
-    "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {
+    "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\serkan.kaymak\\.nuget\\packages\\",
-        "outputPath": "D:\\softwareEngineering\\projeler\\cripto\\cripto_api\\cripto_api\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\onur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\onur\\Desktop\\cripto\\cripto_api\\cripto_api\\Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\serkan.kaymak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -429,7 +405,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

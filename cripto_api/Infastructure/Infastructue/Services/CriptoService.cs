@@ -32,50 +32,41 @@ public class CriptoService : ICriptoService
     }
 
 
-    public async Task<Crypto> GetCryptoWithTickers(int cryptoId, DateTime? dateTime = null)
+    public async Task<Crypto> GetCryptoWithTickers(int cryptoId, DateTime? BeginAnalysesFromThisDate = null)
     {
-
-
-
-        var w = (UnitOfWork)_unitOfWork;
-        var c = w.getContext();
-
-
-        c.SaveChanges();
-
-        c.Cryptos.Add(new Crypto("?")
-        {
-            ath=0,Image="",Name= new Random(10000).Next().ToString(),Price=0
-        });
-        var entities = c.Cryptos.Where(x => x.Id > 0).ToList();
-
-    
-
-        c.SaveChanges();
-
-
-
-        if (dateTime == null) dateTime = DateTime.UtcNow.AddYears(-1);
-        return await _unitOfWork.criptos.GetCryptoWithTickers(cryptoId, dateTime.Value);
+        if (BeginAnalysesFromThisDate == null) BeginAnalysesFromThisDate = DateTime.UtcNow.AddYears(-1);
+        return await _unitOfWork.criptos.GetCryptoWithTickers(cryptoId, BeginAnalysesFromThisDate.Value);
     }
 
 
-    public async Task<List<CryproAnalysesDto>> GetCryptosTechnicalAnalyses()
+
+    private CryproAnalysesDto _analyseCripto(Crypto cripto)
+    {
+        CryptoTechnicalAnalyses cryptoTechnicalAnalyses = new CryptoTechnicalAnalyses();
+        var obv = cryptoTechnicalAnalyses.CalculateObvWithDates(cripto.Tickers.ToList());
+        var macd = cryptoTechnicalAnalyses.CalculateMacdWithDates(cripto.Tickers.ToList());
+        var bolling = cryptoTechnicalAnalyses.CalculateBollingerBandsWithDates(cripto.Tickers.ToList());
+        var rsi = cryptoTechnicalAnalyses.CalculateRsiWithDates(cripto.Tickers.ToList());
+        var criptoDto = _mapper.Map<Crypto, CryptoDto>(cripto);
+        var analysesDto = new CryproAnalysesDto(criptoDto, bolling, rsi, macd, obv);
+
+        return analysesDto;
+    }
+
+    public async Task<CryproAnalysesDto> GetCryptoTechnicalAnalyses(int criptoId, DateTime? BeginAnalysesFromThisDate = null)
+    {
+        CryptoTechnicalAnalyses cryptoTechnicalAnalyses = new CryptoTechnicalAnalyses();
+        Crypto cripto = await GetCryptoWithTickers(criptoId,BeginAnalysesFromThisDate);
+        return _analyseCripto(cripto);
+    }
+
+    public async Task<List<CryproAnalysesDto>> GetCryptosTechnicalAnalyses(DateTime? dateTime = null)
     {
         CryptoTechnicalAnalyses cryptoTechnicalAnalyses = new CryptoTechnicalAnalyses();
 
-        var entites = await GetCryptosWithTickers();
+        var entites = await GetCryptosWithTickers(dateTime);
         List<CryproAnalysesDto> cryproAnalysesDtos = new List<CryproAnalysesDto>();
-        entites.ForEach(cripto =>
-        {
-            var obv = cryptoTechnicalAnalyses.CalculateObvWithDates(cripto.Tickers.ToList());
-            var macd = cryptoTechnicalAnalyses.CalculateMacdWithDates(cripto.Tickers.ToList());
-            var bolling = cryptoTechnicalAnalyses.CalculateBollingerBandsWithDates(cripto.Tickers.ToList());
-            var rsi = cryptoTechnicalAnalyses.CalculateRsiWithDates(cripto.Tickers.ToList());
-            var criptoDto = _mapper.Map<Crypto, CryptoDto>(cripto);
-            var analysesDto = new CryproAnalysesDto(criptoDto, bolling, rsi, macd, obv);
-            cryproAnalysesDtos.Add(analysesDto);
-        });
+        entites.ForEach(cripto => { cryproAnalysesDtos.Add(_analyseCripto(cripto)); });
         return cryproAnalysesDtos;
     }
 }

@@ -51,5 +51,19 @@ public class HomeController : AController
         return Ok(dtos);
     }
 
+    /// <summary>
+    /// Cripto nun indicatör analizlerini döndürür.
+    /// </summary>
+    /// <param name="query">Kripto id </param>
+    /// <returns>Kripto para verisinin al sat analizleri</returns>
+    [HttpGet("GetCriptosAnalyses")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(List<CryproAnalysesDto>))]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<CryproAnalysesDto>> GetCriptosAnalyses([FromQuery] GetAnalysisOfCriptosQuery query)
+    {
+        var dtos = await _mediator.Send(query);
+        return Ok(dtos);
+    }
+
 
 }
