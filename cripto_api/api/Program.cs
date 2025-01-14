@@ -162,7 +162,7 @@ builder.configureJwtSettings();
 
 
 
-if (ApplicationManager.startHangfireHob)
+if (ApplicationManager.startHangfireJob)
 { builder.Services.AddHangfireServer(options => { options.WorkerCount = 3; }); }
 
 
@@ -195,7 +195,7 @@ app.UseHangfireDashboard();
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 // Zamanlanmış işi ekleyin (örnek: her saat başı)
-if (ApplicationManager.startHangfireHob)
+if (ApplicationManager.startHangfireJob)
 {
     string cronExpression = ApplicationManager.isDeveloping
     ? Cron.Minutely()

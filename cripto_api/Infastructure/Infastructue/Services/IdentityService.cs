@@ -46,10 +46,8 @@ namespace Infastructure.Infastructue.Services
 
             // Predicate: Kullanıcı aktif ve silinmemiş olmalı
             Expression<Func<UserIdentity, bool>> predicate = user => user.Preferences.Any(x => x.ToPreference().IsTrue(topic)) && !user.IsDeleted;
-
             // Includes: Preferences ilişkisini dahil et
             Func<IQueryable<UserIdentity>, IQueryable<UserIdentity>> includePreferences = query => query.Include(user => user.Preferences);
-
             // GetAsync metodunu çağır
             var users = await WhereAsync(
                 predicate: predicate,

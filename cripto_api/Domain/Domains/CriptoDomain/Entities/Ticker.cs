@@ -24,7 +24,19 @@ public class Ticker : IEntity
 
     public decimal High24H { get; set; }
     public decimal Low24H { get; set; }
-    public decimal Candle { get; set; }
+    private decimal _candle { get; set; }
+    public decimal Candle
+    {
+        get
+        {
+            if (Crypto == null) return 0;
+            if (Crypto.Tickers == null) return 0;
+            var _tickersOfDay = Crypto.Tickers.Where(x => Created.ToShortDateString() == (x.Created).ToShortDateString());
+            if (!_tickersOfDay.Any()) return 0;
+            return _tickersOfDay.Max(x => x.Price) - _tickersOfDay.Min(x => x.Price);
+        }
+        set { _candle = value; }
+    }
     public long TimeStamp { get; set; }
     public DateTime Created { get; set; } = DateTime.UtcNow;
     public float Volume { get; set; }

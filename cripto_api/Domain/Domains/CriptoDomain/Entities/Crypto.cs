@@ -11,6 +11,7 @@ public class Crypto : IEntity
     public Crypto(string symbol)
     {
         Symbol = symbol;
+        Tickers = new HashSet<Ticker>();
     }
 
     [Key]
